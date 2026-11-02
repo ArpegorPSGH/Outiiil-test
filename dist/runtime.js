@@ -1,6 +1,6 @@
-// Outiiil built runtime version: 3.22.70.64509
-window.__OUTIIIL_RUNTIME_VERSION = "3.22.70.64509";
-window.__OUTIIIL_SOURCES = [{"f":"js/browserAPI.js","s":6},{"f":"js/runtime_init.js","s":229},{"f":"js/lib/acorn.js","s":555,"lib":1},{"f":"js/lib/jquery_3.2.1.js","s":6819,"lib":1},{"f":"js/lib/jquery-alias.js","s":17075,"lib":1},{"f":"js/lib/jquery-ui_1.12.1.js","s":17079,"lib":1},{"f":"js/lib/jquery-datetimepicker_1.6.3.js","s":35788,"lib":1},{"f":"js/lib/jquery-toast_1.3.1.js","s":38082,"lib":1},{"f":"js/lib/globalize_0.1.1.js","s":38457,"lib":1},{"f":"js/lib/globalize-locale-fr.js","s":40046,"lib":1},{"f":"js/lib/clipboard_1.7.1.js","s":40129,"lib":1},{"f":"js/lib/highcharts_6.0.7.js","s":40922,"lib":1},{"f":"js/lib/highcharts-more.js","s":76382,"lib":1},{"f":"js/lib/highcharts-data.js","s":82001,"lib":1},{"f":"js/lib/highcharts-stock.js","s":83978,"lib":1},{"f":"js/lib/datatables_1.10.16.js","s":93983,"lib":1},{"f":"js/lib/numeral_2.0.6.js","s":123190,"lib":1},{"f":"js/lib/numeral-locale-fr.js","s":123886,"lib":1},{"f":"js/lib/moment_2.19.1.js","s":123921,"lib":1},{"f":"js/lib/moment-locale-fr.js","s":128439,"lib":1},{"f":"js/lib/moment-duration-format.js","s":128503,"lib":1},{"f":"js/class/framework/Utils.js","s":128988},{"f":"js/constants.js","s":129450},{"f":"js/class/framework/Logger.js","s":129708},{"f":"js/class/framework/AccesForum.js","s":133286},{"f":"js/class/framework/ActionSecurisee.js","s":133782},{"f":"js/class/framework/Boite.js","s":133950},{"f":"js/class/framework/Dock.js","s":134064},{"f":"js/class/framework/ErreurRestriction.js","s":134189},{"f":"js/class/framework/DonneeValidable.js","s":134202},{"f":"js/class/framework/AttributObjet.js","s":134517},{"f":"js/class/framework/ParametreObjetForum.js","s":134623},{"f":"js/class/framework/ObjetForum.js","s":134975},{"f":"js/class/framework/GestionnaireSections.js","s":136370},{"f":"js/class/framework/GestionnaireVersions.js","s":136697},{"f":"js/class/framework/GestionnaireDroits.js","s":137276},{"f":"js/class/framework/FonctionnaliteAlliance.js","s":137571},{"f":"js/class/framework/Transaction.js","s":138193},{"f":"js/class/framework/Page.js","s":138713},{"f":"js/class/autre/Alliance.js","s":138803},{"f":"js/class/autre/Armee.js","s":139097},{"f":"js/class/autre/Chasse.js","s":140056},{"f":"js/class/autre/Combat.js","s":140257},{"f":"js/class/autre/ProfilUtilisateur.js","s":140952},{"f":"js/class/autre/ParametreUI.js","s":141058},{"f":"js/class/autre/Traceur.js","s":141191},{"f":"js/class/autre/TraceurJoueur.js","s":141320},{"f":"js/class/autre/TraceurAlliance.js","s":141447},{"f":"js/class/boite/ComptePlus.js","s":141566},{"f":"js/class/boite/Radar.js","s":142077},{"f":"js/class/boite/Signalement.js","s":142300},{"f":"js/class/boite/Ponte.js","s":142434},{"f":"js/class/boite/Chasse.js","s":142649},{"f":"js/class/boite/Combat.js","s":142764},{"f":"js/class/boite/Commande.js","s":143412},{"f":"js/class/boite/Map.js","s":143583},{"f":"js/class/boite/Parametres.js","s":143718},{"f":"js/class/boite/Rapport.js","s":143931},{"f":"js/class/boite/Grade.js","s":143982},{"f":"js/class/boite/Traceur.js","s":144069},{"f":"js/class/attribut/joueur/Id.js","s":144144},{"f":"js/class/attribut/joueur/X.js","s":144151},{"f":"js/class/attribut/joueur/Y.js","s":144158},{"f":"js/class/attribut/joueur/TerrainDeChasse.js","s":144165},{"f":"js/class/attribut/joueur/Fourmiliere.js","s":144173},{"f":"js/class/attribut/joueur/Technologie.js","s":144180},{"f":"js/class/attribut/joueur/Activite.js","s":144187},{"f":"js/class/attribut/joueur/Colonise.js","s":144243},{"f":"js/class/attribut/joueur/TagAlliance.js","s":144250},{"f":"js/class/attribut/joueur/Rang.js","s":144260},{"f":"js/class/attribut/joueur/OrdreRadar.js","s":144268},{"f":"js/class/attribut/joueur/NiveauxRecherches.js","s":144275},{"f":"js/class/attribut/joueur/NiveauxConstructions.js","s":144282},{"f":"js/class/attribut/joueur/Nourriture.js","s":144289},{"f":"js/class/attribut/joueur/Materiaux.js","s":144296},{"f":"js/class/attribut/joueur/ArmeeJoueur.js","s":144303},{"f":"js/class/attribut/joueur/Coordonnees.js","s":144311},{"f":"js/class/attribut/joueur/EtatJoueur.js","s":144327},{"f":"js/class/attribut/joueur/DroitsFourmizzz.js","s":144371},{"f":"js/class/attribut/commande/NourritureRestante.js","s":144387},{"f":"js/class/attribut/commande/MateriauxRestants.js","s":144405},{"f":"js/class/attribut/commande/Statut.js","s":144423},{"f":"js/class/attribut/commande/TempsParcours.js","s":144451},{"f":"js/class/attribut/commande/BoutonLivrer.js","s":144481},{"f":"js/class/attribut/commande/Options.js","s":144528},{"f":"js/class/parametre/joueur/AllianceRattachement.js","s":144571},{"f":"js/class/parametre/joueur/OrdreGrade.js","s":144580},{"f":"js/class/parametre/joueur/Pseudo.js","s":144588},{"f":"js/class/parametre/joueur/Grade.js","s":144597},{"f":"js/class/parametre/joueur/VersionExtension.js","s":144608},{"f":"js/class/parametre/recensement/Constructions.js","s":144616},{"f":"js/class/parametre/recensement/Recherches.js","s":144628},{"f":"js/class/parametre/recensement/Ressources.js","s":144640},{"f":"js/class/parametre/recensement/Unites.js","s":144653},{"f":"js/class/parametre/recensement/DateRecensement.js","s":144666},{"f":"js/class/parametre/commande/DateApres.js","s":144675},{"f":"js/class/parametre/commande/DateCommande.js","s":144687},{"f":"js/class/parametre/commande/DateSouhaitee.js","s":144698},{"f":"js/class/parametre/commande/Demandeur.js","s":144710},{"f":"js/class/parametre/commande/EtatCommande.js","s":144720},{"f":"js/class/parametre/commande/Evolution.js","s":144729},{"f":"js/class/parametre/commande/MateriauxDemandes.js","s":144741},{"f":"js/class/parametre/commande/MateriauxLivres.js","s":144754},{"f":"js/class/parametre/commande/NourritureDemandee.js","s":144765},{"f":"js/class/parametre/commande/NourritureLivree.js","s":144778},{"f":"js/class/parametre/convoi/DateArrivee.js","s":144789},{"f":"js/class/parametre/convoi/DateDepart.js","s":144799},{"f":"js/class/parametre/convoi/Destinataire.js","s":144809},{"f":"js/class/parametre/convoi/Expediteur.js","s":144818},{"f":"js/class/parametre/convoi/IdConvoi.js","s":144827},{"f":"js/class/parametre/convoi/IdCommande.js","s":144835},{"f":"js/class/parametre/convoi/MateriauxEnvoyes.js","s":144843},{"f":"js/class/parametre/convoi/NourritureEnvoyee.js","s":144854},{"f":"js/class/parametre/convoi/Ouvrieres.js","s":144865},{"f":"js/class/objet/Recensement.js","s":144874},{"f":"js/class/objet/Joueur.js","s":144897},{"f":"js/class/objet/Convoi.js","s":145694},{"f":"js/class/objet/Commande.js","s":145739},{"f":"js/class/objet/test_visible.js","s":145932},{"f":"js/class/objet/test_restreint.js","s":145941},{"f":"js/class/objet/test_cache.js","s":145947},{"f":"js/class/fonctionnalite/alliance/Actualiser.js","s":145953},{"f":"js/class/fonctionnalite/alliance/DonneesPrivees.js","s":146030},{"f":"js/class/fonctionnalite/alliance/JoueursExterieurs.js","s":146097},{"f":"js/class/fonctionnalite/alliance/ModifierGrade.js","s":146178},{"f":"js/class/fonctionnalite/alliance/Recenser.js","s":146233},{"f":"js/class/fonctionnalite/commerce/testTransactionsConcurrentes.js","s":146283},{"f":"js/class/fonctionnalite/commerce/AfficherConvois.js","s":146315},{"f":"js/class/fonctionnalite/commerce/GererCommandes.js","s":146485},{"f":"js/class/fonctionnalite/forum/AdministrerForum.js","s":146963},{"f":"js/class/fonctionnalite/forum/AdministrerCommandes.js","s":147080},{"f":"js/class/fonctionnalite/forum/CopierLogs.js","s":147149},{"f":"js/class/fonctionnalite/messagerie/ColorerMessage.js","s":147237},{"f":"js/class/page/Membres.js","s":147292},{"f":"js/class/page/Armee.js","s":147640},{"f":"js/class/page/Attaquer.js","s":148016},{"f":"js/class/page/Chat.js","s":148329},{"f":"js/class/page/Commerce.js","s":148567},{"f":"js/class/page/Construction.js","s":148690},{"f":"js/class/page/Description.js","s":148793},{"f":"js/class/page/Forum.js","s":148913},{"f":"js/class/page/Laboratoire.js","s":148981},{"f":"js/class/page/Messagerie.js","s":149122},{"f":"js/class/page/Profil.js","s":149491},{"f":"js/class/page/Reine.js","s":149595},{"f":"js/class/page/Ressource.js","s":149714},{"f":"js/class/page/Ennemie.js","s":150004},{"f":"js/main.js","s":150040}];
+// Outiiil built runtime version: 3.22.3.61726
+window.__OUTIIIL_RUNTIME_VERSION = "3.22.3.61726";
+window.__OUTIIIL_SOURCES = [{"f":"js/browserAPI.js","s":6},{"f":"js/runtime_init.js","s":225},{"f":"js/lib/acorn.js","s":549,"lib":1},{"f":"js/lib/jquery_3.2.1.js","s":6813,"lib":1},{"f":"js/lib/jquery-alias.js","s":17069,"lib":1},{"f":"js/lib/jquery-ui_1.12.1.js","s":17073,"lib":1},{"f":"js/lib/jquery-datetimepicker_1.6.3.js","s":35782,"lib":1},{"f":"js/lib/jquery-toast_1.3.1.js","s":38076,"lib":1},{"f":"js/lib/globalize_0.1.1.js","s":38451,"lib":1},{"f":"js/lib/globalize-locale-fr.js","s":40040,"lib":1},{"f":"js/lib/clipboard_1.7.1.js","s":40123,"lib":1},{"f":"js/lib/highcharts_6.0.7.js","s":40916,"lib":1},{"f":"js/lib/highcharts-more.js","s":76376,"lib":1},{"f":"js/lib/highcharts-data.js","s":81995,"lib":1},{"f":"js/lib/highcharts-stock.js","s":83972,"lib":1},{"f":"js/lib/datatables_1.10.16.js","s":93977,"lib":1},{"f":"js/lib/numeral_2.0.6.js","s":123184,"lib":1},{"f":"js/lib/numeral-locale-fr.js","s":123880,"lib":1},{"f":"js/lib/moment_2.19.1.js","s":123915,"lib":1},{"f":"js/lib/moment-locale-fr.js","s":128433,"lib":1},{"f":"js/lib/moment-duration-format.js","s":128497,"lib":1},{"f":"js/lib/marked.min.js","s":128982,"lib":1},{"f":"js/class/framework/Utils.js","s":129054},{"f":"js/constants.js","s":129515},{"f":"js/class/framework/Logger.js","s":129773},{"f":"js/class/framework/AccesForum.js","s":133326},{"f":"js/class/framework/ActionSecurisee.js","s":133822},{"f":"js/class/framework/Boite.js","s":133990},{"f":"js/class/framework/Dock.js","s":134104},{"f":"js/class/framework/ErreurRestriction.js","s":134237},{"f":"js/class/framework/DonneeValidable.js","s":134250},{"f":"js/class/framework/AttributObjet.js","s":134565},{"f":"js/class/framework/ParametreObjetForum.js","s":134671},{"f":"js/class/framework/ObjetForum.js","s":135023},{"f":"js/class/framework/GestionnaireSections.js","s":136418},{"f":"js/class/framework/GestionnaireVersions.js","s":136745},{"f":"js/class/framework/GestionnaireDroits.js","s":137324},{"f":"js/class/framework/FonctionnaliteAlliance.js","s":137619},{"f":"js/class/framework/Transaction.js","s":138241},{"f":"js/class/framework/Page.js","s":138761},{"f":"js/class/autre/Alliance.js","s":138851},{"f":"js/class/autre/Armee.js","s":139145},{"f":"js/class/autre/Chasse.js","s":140104},{"f":"js/class/autre/Combat.js","s":140305},{"f":"js/class/autre/ProfilUtilisateur.js","s":141000},{"f":"js/class/autre/ParametreUI.js","s":141106},{"f":"js/class/autre/Traceur.js","s":141239},{"f":"js/class/autre/TraceurJoueur.js","s":141368},{"f":"js/class/autre/TraceurAlliance.js","s":141495},{"f":"js/class/boite/ComptePlus.js","s":141614},{"f":"js/class/boite/Radar.js","s":142154},{"f":"js/class/boite/Signalement.js","s":142377},{"f":"js/class/boite/Documentation.js","s":142511},{"f":"js/class/boite/Ponte.js","s":143189},{"f":"js/class/boite/Chasse.js","s":143404},{"f":"js/class/boite/Combat.js","s":143519},{"f":"js/class/boite/Commande.js","s":144167},{"f":"js/class/boite/Map.js","s":144338},{"f":"js/class/boite/Parametres.js","s":144473},{"f":"js/class/boite/Rapport.js","s":144686},{"f":"js/class/boite/Grade.js","s":144737},{"f":"js/class/boite/Traceur.js","s":144824},{"f":"js/class/attribut/joueur/Id.js","s":144899},{"f":"js/class/attribut/joueur/X.js","s":144906},{"f":"js/class/attribut/joueur/Y.js","s":144913},{"f":"js/class/attribut/joueur/TerrainDeChasse.js","s":144920},{"f":"js/class/attribut/joueur/Fourmiliere.js","s":144928},{"f":"js/class/attribut/joueur/Technologie.js","s":144935},{"f":"js/class/attribut/joueur/Activite.js","s":144942},{"f":"js/class/attribut/joueur/Colonise.js","s":144998},{"f":"js/class/attribut/joueur/TagAlliance.js","s":145005},{"f":"js/class/attribut/joueur/Rang.js","s":145015},{"f":"js/class/attribut/joueur/OrdreRadar.js","s":145023},{"f":"js/class/attribut/joueur/NiveauxRecherches.js","s":145030},{"f":"js/class/attribut/joueur/NiveauxConstructions.js","s":145037},{"f":"js/class/attribut/joueur/Nourriture.js","s":145044},{"f":"js/class/attribut/joueur/Materiaux.js","s":145051},{"f":"js/class/attribut/joueur/ArmeeJoueur.js","s":145058},{"f":"js/class/attribut/joueur/Coordonnees.js","s":145066},{"f":"js/class/attribut/joueur/EtatJoueur.js","s":145082},{"f":"js/class/attribut/joueur/DroitsFourmizzz.js","s":145126},{"f":"js/class/attribut/commande/NourritureRestante.js","s":145142},{"f":"js/class/attribut/commande/MateriauxRestants.js","s":145160},{"f":"js/class/attribut/commande/Statut.js","s":145178},{"f":"js/class/attribut/commande/TempsParcours.js","s":145206},{"f":"js/class/attribut/commande/BoutonLivrer.js","s":145236},{"f":"js/class/attribut/commande/Options.js","s":145283},{"f":"js/class/parametre/joueur/AllianceRattachement.js","s":145326},{"f":"js/class/parametre/joueur/OrdreGrade.js","s":145335},{"f":"js/class/parametre/joueur/Pseudo.js","s":145343},{"f":"js/class/parametre/joueur/Grade.js","s":145352},{"f":"js/class/parametre/joueur/VersionExtension.js","s":145363},{"f":"js/class/parametre/recensement/Constructions.js","s":145371},{"f":"js/class/parametre/recensement/Recherches.js","s":145383},{"f":"js/class/parametre/recensement/Ressources.js","s":145395},{"f":"js/class/parametre/recensement/Unites.js","s":145408},{"f":"js/class/parametre/recensement/DateRecensement.js","s":145421},{"f":"js/class/parametre/commande/DateApres.js","s":145430},{"f":"js/class/parametre/commande/DateCommande.js","s":145442},{"f":"js/class/parametre/commande/DateSouhaitee.js","s":145453},{"f":"js/class/parametre/commande/Demandeur.js","s":145465},{"f":"js/class/parametre/commande/EtatCommande.js","s":145475},{"f":"js/class/parametre/commande/Evolution.js","s":145484},{"f":"js/class/parametre/commande/MateriauxDemandes.js","s":145496},{"f":"js/class/parametre/commande/MateriauxLivres.js","s":145509},{"f":"js/class/parametre/commande/NourritureDemandee.js","s":145520},{"f":"js/class/parametre/commande/NourritureLivree.js","s":145533},{"f":"js/class/parametre/convoi/DateArrivee.js","s":145544},{"f":"js/class/parametre/convoi/DateDepart.js","s":145554},{"f":"js/class/parametre/convoi/Destinataire.js","s":145564},{"f":"js/class/parametre/convoi/Expediteur.js","s":145573},{"f":"js/class/parametre/convoi/IdConvoi.js","s":145582},{"f":"js/class/parametre/convoi/IdCommande.js","s":145590},{"f":"js/class/parametre/convoi/MateriauxEnvoyes.js","s":145598},{"f":"js/class/parametre/convoi/NourritureEnvoyee.js","s":145609},{"f":"js/class/parametre/convoi/Ouvrieres.js","s":145620},{"f":"js/class/objet/Recensement.js","s":145629},{"f":"js/class/objet/Joueur.js","s":145652},{"f":"js/class/objet/Convoi.js","s":146497},{"f":"js/class/objet/Commande.js","s":146542},{"f":"js/class/objet/test_visible.js","s":146735},{"f":"js/class/objet/test_restreint.js","s":146744},{"f":"js/class/objet/test_cache.js","s":146750},{"f":"js/class/fonctionnalite/alliance/Actualiser.js","s":146756},{"f":"js/class/fonctionnalite/alliance/DonneesPrivees.js","s":146833},{"f":"js/class/fonctionnalite/alliance/JoueursExterieurs.js","s":146900},{"f":"js/class/fonctionnalite/alliance/ModifierGrade.js","s":146981},{"f":"js/class/fonctionnalite/alliance/Recenser.js","s":147036},{"f":"js/class/fonctionnalite/commerce/testTransactionsConcurrentes.js","s":147086},{"f":"js/class/fonctionnalite/commerce/AfficherConvois.js","s":147118},{"f":"js/class/fonctionnalite/commerce/GererCommandes.js","s":147288},{"f":"js/class/fonctionnalite/forum/AdministrerForum.js","s":147766},{"f":"js/class/fonctionnalite/forum/AdministrerCommandes.js","s":147883},{"f":"js/class/fonctionnalite/forum/CopierLogs.js","s":147952},{"f":"js/class/fonctionnalite/messagerie/ColorerMessage.js","s":148040},{"f":"js/class/page/Membres.js","s":148095},{"f":"js/class/page/Armee.js","s":148443},{"f":"js/class/page/Attaquer.js","s":148819},{"f":"js/class/page/Chat.js","s":149132},{"f":"js/class/page/Commerce.js","s":149370},{"f":"js/class/page/Construction.js","s":149493},{"f":"js/class/page/Description.js","s":149602},{"f":"js/class/page/Forum.js","s":149722},{"f":"js/class/page/Laboratoire.js","s":149790},{"f":"js/class/page/Messagerie.js","s":149937},{"f":"js/class/page/Profil.js","s":150306},{"f":"js/class/page/Reine.js","s":150410},{"f":"js/class/page/Ressource.js","s":150529},{"f":"js/class/page/Ennemie.js","s":150819},{"f":"js/main.js","s":150855}];
 
 // Source: js/browserAPI.js
 /*
@@ -68,11 +68,9 @@ window.__OUTIIIL_SOURCES = [{"f":"js/browserAPI.js","s":6},{"f":"js/runtime_init
             clearTimeout(p.timeout);
             pendingRequests.delete(data.id);
             if (data.ok) {
-                console.log('[Outiiil browserAPI] RPC success:', data.path);
                 p.resolve(data.result);
             } else {
-                console.warn('[Outiiil browserAPI] RPC error:', data.path, data.error,
-                    'full response=' + JSON.stringify(data));
+                console.warn('[Outiiil browserAPI] RPC error:', data.path, data.error);
                 var errMsg = data.error || ('RPC error: ' + data.path);
                 var errObj = new Error(errMsg);
                 try {
@@ -95,8 +93,6 @@ window.__OUTIIIL_SOURCES = [{"f":"js/browserAPI.js","s":6},{"f":"js/runtime_init
     function callApi(path, args) {
         const id = nextId();
         const fullPath = typeof path === 'string' ? path : path.join('.');
-
-        console.log('[Outiiil browserAPI] Sending RPC request:', fullPath, 'id=' + id);
 
         return new Promise((resolve, reject) => {
             const timeout = setTimeout(() => {
@@ -256,6 +252,9 @@ window.__OUTIIIL_SOURCES = [{"f":"js/browserAPI.js","s":6},{"f":"js/runtime_init
         reloadingText: 'Rechargement de la page...',
         blockedText: 'Mise à jour bloquée : le socle de l\'extension a changé. ' +
             'Réinstallez Outiiil v{version} depuis les releases GitHub.',
+        rollbackText: 'Un rollback a été effectué sur le serveur. ' +
+            'Téléchargez la dernière release pour rétablir le fonctionnement.',
+        rollbackSuccessText: 'Rollback v{version} appliqué — rechargement imminent.',
         position: 'top-right',
         zIndex: 2147483646,
         maxWidth: '360px',
@@ -362,35 +361,26 @@ window.__OUTIIIL_SOURCES = [{"f":"js/browserAPI.js","s":6},{"f":"js/runtime_init
         var lastError = null;
         for (var attempt = 0; attempt <= maxRetries; attempt++) {
             try {
-                console.log('[Outiiil Diagnostic] RPC attempt ' + (attempt + 1) + '/' + (maxRetries + 1));
                 var result = await fn();
-                console.log('[Outiiil Diagnostic] RPC success on attempt ' + (attempt + 1));
                 return result;
             } catch (e) {
                 lastError = e;
-                console.log('[Outiiil Diagnostic] RPC attempt ' + (attempt + 1) + ' failed:', e.message || e);
                 if (attempt < maxRetries) {
                     var waitMs = delayMs * (attempt + 1);
-                    console.log('[Outiiil Diagnostic] Retrying in ' + waitMs + 'ms...');
                     await new Promise(function (r) { setTimeout(r, waitMs); });
                 }
             }
         }
-        console.log('[Outiiil Diagnostic] RPC all attempts failed, throwing');
         throw lastError;
     }
 
     async function applyImagesFromCache() {
-        console.log('[Outiiil Runtime] applyImagesFromCache: starting, bridgeReady=' +
-            (window.browserAPI && window.browserAPI._ready ? 'pending' : 'unknown'));
         try {
             var cached = await rpcWithRetry(function () {
-                console.log('[Outiiil Runtime] applyImagesFromCache: calling storage.local.get');
                 return window.browserAPI.storage.local.get([STORAGE_KEY_IMAGES]);
             });
             var images = cached[STORAGE_KEY_IMAGES];
             if (!images || Object.keys(images).length === 0) {
-                console.log('[Outiiil Runtime] applyImagesFromCache: no cached images');
                 return;
             }
 
@@ -405,19 +395,8 @@ window.__OUTIIIL_SOURCES = [{"f":"js/browserAPI.js","s":6},{"f":"js/runtime_init
                 }
             }
             window.OUTIIIL_DYNAMIC_IMAGES = blobs;
-            console.log('[Outiiil] Dynamic images loaded:', Object.keys(blobs).length);
         } catch (e) {
-            console.warn('[Outiiil] Failed to load cached images:', e);
-            console.warn('[Outiiil] applyImagesFromCache context - name=' + (e && e.name) +
-                ' message=' + (e && e.message) +
-                ' bridgeReady=' + (window.browserAPI ? 'defined' : 'undefined') +
-                ' storage.local=' + (window.browserAPI && window.browserAPI.storage ? 'defined' : 'undefined'));
-            try {
-                console.warn('[Outiiil] applyImagesFromCache error object dump:',
-                    JSON.stringify(e, Object.getOwnPropertyNames(e || {})));
-            } catch (dumpErr) {
-                console.warn('[Outiiil] applyImagesFromCache error dump failed:', dumpErr);
-            }
+            console.warn('[Outiiil] Failed to load cached images:', e.message);
         }
     }
 
@@ -441,12 +420,20 @@ window.__OUTIIIL_SOURCES = [{"f":"js/browserAPI.js","s":6},{"f":"js/runtime_init
         // runtime the background has (either just downloaded, or already cached by
         // its periodic timer).
         var availableVersion = null;
+        var blocked = false;
         try {
             var updateResult = await rpcWithRetry(function () {
                 return window.browserAPI.runtime.sendMessage({ type: 'CHECK_UPDATE' });
             }, 3, 1000);
             console.log('[Outiiil Runtime] CHECK_UPDATE result:', JSON.stringify(updateResult));
             availableVersion = updateResult && updateResult.version;
+            blocked = !!(updateResult && updateResult.blocked);
+            if (blocked) {
+                console.log('[Outiiil Runtime] Runtime blocked by background' +
+                    (updateResult && updateResult.rollbackDetected ? ' (rollback detected)' : '') +
+                    '. The user script has been unregistered; the bridge will show a toast. ' +
+                    'No auto-reload will be triggered.');
+            }
         } catch (e) {
             console.warn('[Outiiil Runtime] CHECK_UPDATE failed:', e);
         }
@@ -462,7 +449,11 @@ window.__OUTIIIL_SOURCES = [{"f":"js/browserAPI.js","s":6},{"f":"js/runtime_init
         // If they differ, we may be running stale code OR the background may have just
         // registered this exact runtime (e.g., after a socle reinstall). Check the stored
         // version to distinguish these cases.
-        if (runningVersion && availableVersion && runningVersion !== availableVersion) {
+        // Skip this check when the background has blocked the runtime (e.g., after a
+        // socle mismatch/rollback): the user script has been (or will be) unregistered,
+        // and the bridge handles showing the blocked toast. No reload should be
+        // triggered because the available version's socle is incompatible.
+        if (!blocked && runningVersion && availableVersion && runningVersion !== availableVersion) {
             // Check whether the background just registered this exact runtime version.
             // If the stored version matches the running version, the background is
             // reporting a different version because it's the LATEST available one,
@@ -499,7 +490,10 @@ window.__OUTIIIL_SOURCES = [{"f":"js/browserAPI.js","s":6},{"f":"js/runtime_init
         }
 
         // Expose the current (available) version for the game logic.
-        if (availableVersion) {
+        // When blocked (e.g. after a rollback with socle mismatch), do NOT
+        // expose the rolled-back version — the running runtime is from the
+        // old/incompatible version and should report its own version.
+        if (!blocked && availableVersion) {
             window.VERSION = availableVersion;
             console.log('[Outiiil Runtime] window.VERSION = ' + window.VERSION);
         }
@@ -128984,6 +128978,78 @@ return hooks;
 })(this);
 
 ;
+// Source: js/lib/marked.min.js
+/**
+ * marked v15.0.12 - a markdown parser
+ * Copyright (c) 2011-2025, Christopher Jeffrey. (MIT Licensed)
+ * https://github.com/markedjs/marked
+ */
+
+/**
+ * DO NOT EDIT THIS FILE
+ * The code in this file is generated from files in ./src/
+ */
+(function(g,f){if(typeof exports=="object"&&typeof module<"u"){module.exports=f()}else if("function"==typeof define && define.amd){define("marked",f)}else {g["marked"]=f()}}(typeof globalThis < "u" ? globalThis : typeof self < "u" ? self : this,function(){var exports={};var __exports=exports;var module={exports};
+"use strict";var H=Object.defineProperty;var be=Object.getOwnPropertyDescriptor;var Te=Object.getOwnPropertyNames;var we=Object.prototype.hasOwnProperty;var ye=(l,e)=>{for(var t in e)H(l,t,{get:e[t],enumerable:!0})},Re=(l,e,t,n)=>{if(e&&typeof e=="object"||typeof e=="function")for(let s of Te(e))!we.call(l,s)&&s!==t&&H(l,s,{get:()=>e[s],enumerable:!(n=be(e,s))||n.enumerable});return l};var Se=l=>Re(H({},"__esModule",{value:!0}),l);var kt={};ye(kt,{Hooks:()=>L,Lexer:()=>x,Marked:()=>E,Parser:()=>b,Renderer:()=>$,TextRenderer:()=>_,Tokenizer:()=>S,defaults:()=>w,getDefaults:()=>z,lexer:()=>ht,marked:()=>k,options:()=>it,parse:()=>pt,parseInline:()=>ct,parser:()=>ut,setOptions:()=>ot,use:()=>lt,walkTokens:()=>at});module.exports=Se(kt);function z(){return{async:!1,breaks:!1,extensions:null,gfm:!0,hooks:null,pedantic:!1,renderer:null,silent:!1,tokenizer:null,walkTokens:null}}var w=z();function N(l){w=l}var I={exec:()=>null};function h(l,e=""){let t=typeof l=="string"?l:l.source,n={replace:(s,i)=>{let r=typeof i=="string"?i:i.source;return r=r.replace(m.caret,"$1"),t=t.replace(s,r),n},getRegex:()=>new RegExp(t,e)};return n}var m={codeRemoveIndent:/^(?: {1,4}| {0,3}\t)/gm,outputLinkReplace:/\\([\[\]])/g,indentCodeCompensation:/^(\s+)(?:```)/,beginningSpace:/^\s+/,endingHash:/#$/,startingSpaceChar:/^ /,endingSpaceChar:/ $/,nonSpaceChar:/[^ ]/,newLineCharGlobal:/\n/g,tabCharGlobal:/\t/g,multipleSpaceGlobal:/\s+/g,blankLine:/^[ \t]*$/,doubleBlankLine:/\n[ \t]*\n[ \t]*$/,blockquoteStart:/^ {0,3}>/,blockquoteSetextReplace:/\n {0,3}((?:=+|-+) *)(?=\n|$)/g,blockquoteSetextReplace2:/^ {0,3}>[ \t]?/gm,listReplaceTabs:/^\t+/,listReplaceNesting:/^ {1,4}(?=( {4})*[^ ])/g,listIsTask:/^\[[ xX]\] /,listReplaceTask:/^\[[ xX]\] +/,anyLine:/\n.*\n/,hrefBrackets:/^<(.*)>$/,tableDelimiter:/[:|]/,tableAlignChars:/^\||\| *$/g,tableRowBlankLine:/\n[ \t]*$/,tableAlignRight:/^ *-+: *$/,tableAlignCenter:/^ *:-+: *$/,tableAlignLeft:/^ *:-+ *$/,startATag:/^<a /i,endATag:/^<\/a>/i,startPreScriptTag:/^<(pre|code|kbd|script)(\s|>)/i,endPreScriptTag:/^<\/(pre|code|kbd|script)(\s|>)/i,startAngleBracket:/^</,endAngleBracket:/>$/,pedanticHrefTitle:/^([^'"]*[^\s])\s+(['"])(.*)\2/,unicodeAlphaNumeric:/[\p{L}\p{N}]/u,escapeTest:/[&<>"']/,escapeReplace:/[&<>"']/g,escapeTestNoEncode:/[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/,escapeReplaceNoEncode:/[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/g,unescapeTest:/&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/ig,caret:/(^|[^\[])\^/g,percentDecode:/%25/g,findPipe:/\|/g,splitPipe:/ \|/,slashPipe:/\\\|/g,carriageReturn:/\r\n|\r/g,spaceLine:/^ +$/gm,notSpaceStart:/^\S*/,endingNewline:/\n$/,listItemRegex:l=>new RegExp(`^( {0,3}${l})((?:[	 ][^\\n]*)?(?:\\n|$))`),nextBulletRegex:l=>new RegExp(`^ {0,${Math.min(3,l-1)}}(?:[*+-]|\\d{1,9}[.)])((?:[ 	][^\\n]*)?(?:\\n|$))`),hrRegex:l=>new RegExp(`^ {0,${Math.min(3,l-1)}}((?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$)`),fencesBeginRegex:l=>new RegExp(`^ {0,${Math.min(3,l-1)}}(?:\`\`\`|~~~)`),headingBeginRegex:l=>new RegExp(`^ {0,${Math.min(3,l-1)}}#`),htmlBeginRegex:l=>new RegExp(`^ {0,${Math.min(3,l-1)}}<(?:[a-z].*>|!--)`,"i")},$e=/^(?:[ \t]*(?:\n|$))+/,_e=/^((?: {4}| {0,3}\t)[^\n]+(?:\n(?:[ \t]*(?:\n|$))*)?)+/,Le=/^ {0,3}(`{3,}(?=[^`\n]*(?:\n|$))|~{3,})([^\n]*)(?:\n|$)(?:|([\s\S]*?)(?:\n|$))(?: {0,3}\1[~`]* *(?=\n|$)|$)/,O=/^ {0,3}((?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/,ze=/^ {0,3}(#{1,6})(?=\s|$)(.*)(?:\n+|$)/,F=/(?:[*+-]|\d{1,9}[.)])/,ie=/^(?!bull |blockCode|fences|blockquote|heading|html|table)((?:.|\n(?!\s*?\n|bull |blockCode|fences|blockquote|heading|html|table))+?)\n {0,3}(=+|-+) *(?:\n+|$)/,oe=h(ie).replace(/bull/g,F).replace(/blockCode/g,/(?: {4}| {0,3}\t)/).replace(/fences/g,/ {0,3}(?:`{3,}|~{3,})/).replace(/blockquote/g,/ {0,3}>/).replace(/heading/g,/ {0,3}#{1,6}/).replace(/html/g,/ {0,3}<[^\n>]+>\n/).replace(/\|table/g,"").getRegex(),Me=h(ie).replace(/bull/g,F).replace(/blockCode/g,/(?: {4}| {0,3}\t)/).replace(/fences/g,/ {0,3}(?:`{3,}|~{3,})/).replace(/blockquote/g,/ {0,3}>/).replace(/heading/g,/ {0,3}#{1,6}/).replace(/html/g,/ {0,3}<[^\n>]+>\n/).replace(/table/g,/ {0,3}\|?(?:[:\- ]*\|)+[\:\- ]*\n/).getRegex(),Q=/^([^\n]+(?:\n(?!hr|heading|lheading|blockquote|fences|list|html|table| +\n)[^\n]+)*)/,Pe=/^[^\n]+/,U=/(?!\s*\])(?:\\.|[^\[\]\\])+/,Ae=h(/^ {0,3}\[(label)\]: *(?:\n[ \t]*)?([^<\s][^\s]*|<.*?>)(?:(?: +(?:\n[ \t]*)?| *\n[ \t]*)(title))? *(?:\n+|$)/).replace("label",U).replace("title",/(?:"(?:\\"?|[^"\\])*"|'[^'\n]*(?:\n[^'\n]+)*\n?'|\([^()]*\))/).getRegex(),Ee=h(/^( {0,3}bull)([ \t][^\n]+?)?(?:\n|$)/).replace(/bull/g,F).getRegex(),v="address|article|aside|base|basefont|blockquote|body|caption|center|col|colgroup|dd|details|dialog|dir|div|dl|dt|fieldset|figcaption|figure|footer|form|frame|frameset|h[1-6]|head|header|hr|html|iframe|legend|li|link|main|menu|menuitem|meta|nav|noframes|ol|optgroup|option|p|param|search|section|summary|table|tbody|td|tfoot|th|thead|title|tr|track|ul",K=/<!--(?:-?>|[\s\S]*?(?:-->|$))/,Ce=h("^ {0,3}(?:<(script|pre|style|textarea)[\\s>][\\s\\S]*?(?:</\\1>[^\\n]*\\n+|$)|comment[^\\n]*(\\n+|$)|<\\?[\\s\\S]*?(?:\\?>\\n*|$)|<![A-Z][\\s\\S]*?(?:>\\n*|$)|<!\\[CDATA\\[[\\s\\S]*?(?:\\]\\]>\\n*|$)|</?(tag)(?: +|\\n|/?>)[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$)|<(?!script|pre|style|textarea)([a-z][\\w-]*)(?:attribute)*? */?>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$)|</(?!script|pre|style|textarea)[a-z][\\w-]*\\s*>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$))","i").replace("comment",K).replace("tag",v).replace("attribute",/ +[a-zA-Z:_][\w.:-]*(?: *= *"[^"\n]*"| *= *'[^'\n]*'| *= *[^\s"'=<>`]+)?/).getRegex(),le=h(Q).replace("hr",O).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("|lheading","").replace("|table","").replace("blockquote"," {0,3}>").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",v).getRegex(),Ie=h(/^( {0,3}> ?(paragraph|[^\n]*)(?:\n|$))+/).replace("paragraph",le).getRegex(),X={blockquote:Ie,code:_e,def:Ae,fences:Le,heading:ze,hr:O,html:Ce,lheading:oe,list:Ee,newline:$e,paragraph:le,table:I,text:Pe},re=h("^ *([^\\n ].*)\\n {0,3}((?:\\| *)?:?-+:? *(?:\\| *:?-+:? *)*(?:\\| *)?)(?:\\n((?:(?! *\\n|hr|heading|blockquote|code|fences|list|html).*(?:\\n|$))*)\\n*|$)").replace("hr",O).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("blockquote"," {0,3}>").replace("code","(?: {4}| {0,3}	)[^\\n]").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",v).getRegex(),Oe={...X,lheading:Me,table:re,paragraph:h(Q).replace("hr",O).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("|lheading","").replace("table",re).replace("blockquote"," {0,3}>").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",v).getRegex()},Be={...X,html:h(`^ *(?:comment *(?:\\n|\\s*$)|<(tag)[\\s\\S]+?</\\1> *(?:\\n{2,}|\\s*$)|<tag(?:"[^"]*"|'[^']*'|\\s[^'"/>\\s]*)*?/?> *(?:\\n{2,}|\\s*$))`).replace("comment",K).replace(/tag/g,"(?!(?:a|em|strong|small|s|cite|q|dfn|abbr|data|time|code|var|samp|kbd|sub|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo|span|br|wbr|ins|del|img)\\b)\\w+(?!:|[^\\w\\s@]*@)\\b").getRegex(),def:/^ *\[([^\]]+)\]: *<?([^\s>]+)>?(?: +(["(][^\n]+[")]))? *(?:\n+|$)/,heading:/^(#{1,6})(.*)(?:\n+|$)/,fences:I,lheading:/^(.+?)\n {0,3}(=+|-+) *(?:\n+|$)/,paragraph:h(Q).replace("hr",O).replace("heading",` *#{1,6} *[^
+]`).replace("lheading",oe).replace("|table","").replace("blockquote"," {0,3}>").replace("|fences","").replace("|list","").replace("|html","").replace("|tag","").getRegex()},qe=/^\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/,ve=/^(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/,ae=/^( {2,}|\\)\n(?!\s*$)/,De=/^(`+|[^`])(?:(?= {2,}\n)|[\s\S]*?(?:(?=[\\<!\[`*_]|\b_|$)|[^ ](?= {2,}\n)))/,D=/[\p{P}\p{S}]/u,W=/[\s\p{P}\p{S}]/u,ce=/[^\s\p{P}\p{S}]/u,Ze=h(/^((?![*_])punctSpace)/,"u").replace(/punctSpace/g,W).getRegex(),pe=/(?!~)[\p{P}\p{S}]/u,Ge=/(?!~)[\s\p{P}\p{S}]/u,He=/(?:[^\s\p{P}\p{S}]|~)/u,Ne=/\[[^[\]]*?\]\((?:\\.|[^\\\(\)]|\((?:\\.|[^\\\(\)])*\))*\)|`[^`]*?`|<[^<>]*?>/g,ue=/^(?:\*+(?:((?!\*)punct)|[^\s*]))|^_+(?:((?!_)punct)|([^\s_]))/,je=h(ue,"u").replace(/punct/g,D).getRegex(),Fe=h(ue,"u").replace(/punct/g,pe).getRegex(),he="^[^_*]*?__[^_*]*?\\*[^_*]*?(?=__)|[^*]+(?=[^*])|(?!\\*)punct(\\*+)(?=[\\s]|$)|notPunctSpace(\\*+)(?!\\*)(?=punctSpace|$)|(?!\\*)punctSpace(\\*+)(?=notPunctSpace)|[\\s](\\*+)(?!\\*)(?=punct)|(?!\\*)punct(\\*+)(?!\\*)(?=punct)|notPunctSpace(\\*+)(?=notPunctSpace)",Qe=h(he,"gu").replace(/notPunctSpace/g,ce).replace(/punctSpace/g,W).replace(/punct/g,D).getRegex(),Ue=h(he,"gu").replace(/notPunctSpace/g,He).replace(/punctSpace/g,Ge).replace(/punct/g,pe).getRegex(),Ke=h("^[^_*]*?\\*\\*[^_*]*?_[^_*]*?(?=\\*\\*)|[^_]+(?=[^_])|(?!_)punct(_+)(?=[\\s]|$)|notPunctSpace(_+)(?!_)(?=punctSpace|$)|(?!_)punctSpace(_+)(?=notPunctSpace)|[\\s](_+)(?!_)(?=punct)|(?!_)punct(_+)(?!_)(?=punct)","gu").replace(/notPunctSpace/g,ce).replace(/punctSpace/g,W).replace(/punct/g,D).getRegex(),Xe=h(/\\(punct)/,"gu").replace(/punct/g,D).getRegex(),We=h(/^<(scheme:[^\s\x00-\x1f<>]*|email)>/).replace("scheme",/[a-zA-Z][a-zA-Z0-9+.-]{1,31}/).replace("email",/[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+(@)[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+(?![-_])/).getRegex(),Je=h(K).replace("(?:-->|$)","-->").getRegex(),Ve=h("^comment|^</[a-zA-Z][\\w:-]*\\s*>|^<[a-zA-Z][\\w-]*(?:attribute)*?\\s*/?>|^<\\?[\\s\\S]*?\\?>|^<![a-zA-Z]+\\s[\\s\\S]*?>|^<!\\[CDATA\\[[\\s\\S]*?\\]\\]>").replace("comment",Je).replace("attribute",/\s+[a-zA-Z:_][\w.:-]*(?:\s*=\s*"[^"]*"|\s*=\s*'[^']*'|\s*=\s*[^\s"'=<>`]+)?/).getRegex(),q=/(?:\[(?:\\.|[^\[\]\\])*\]|\\.|`[^`]*`|[^\[\]\\`])*?/,Ye=h(/^!?\[(label)\]\(\s*(href)(?:(?:[ \t]*(?:\n[ \t]*)?)(title))?\s*\)/).replace("label",q).replace("href",/<(?:\\.|[^\n<>\\])+>|[^ \t\n\x00-\x1f]*/).replace("title",/"(?:\\"?|[^"\\])*"|'(?:\\'?|[^'\\])*'|\((?:\\\)?|[^)\\])*\)/).getRegex(),ke=h(/^!?\[(label)\]\[(ref)\]/).replace("label",q).replace("ref",U).getRegex(),ge=h(/^!?\[(ref)\](?:\[\])?/).replace("ref",U).getRegex(),et=h("reflink|nolink(?!\\()","g").replace("reflink",ke).replace("nolink",ge).getRegex(),J={_backpedal:I,anyPunctuation:Xe,autolink:We,blockSkip:Ne,br:ae,code:ve,del:I,emStrongLDelim:je,emStrongRDelimAst:Qe,emStrongRDelimUnd:Ke,escape:qe,link:Ye,nolink:ge,punctuation:Ze,reflink:ke,reflinkSearch:et,tag:Ve,text:De,url:I},tt={...J,link:h(/^!?\[(label)\]\((.*?)\)/).replace("label",q).getRegex(),reflink:h(/^!?\[(label)\]\s*\[([^\]]*)\]/).replace("label",q).getRegex()},j={...J,emStrongRDelimAst:Ue,emStrongLDelim:Fe,url:h(/^((?:ftp|https?):\/\/|www\.)(?:[a-zA-Z0-9\-]+\.?)+[^\s<]*|^email/,"i").replace("email",/[A-Za-z0-9._+-]+(@)[a-zA-Z0-9-_]+(?:\.[a-zA-Z0-9-_]*[a-zA-Z0-9])+(?![-_])/).getRegex(),_backpedal:/(?:[^?!.,:;*_'"~()&]+|\([^)]*\)|&(?![a-zA-Z0-9]+;$)|[?!.,:;*_'"~)]+(?!$))+/,del:/^(~~?)(?=[^\s~])((?:\\.|[^\\])*?(?:\\.|[^\s~\\]))\1(?=[^~]|$)/,text:/^([`~]+|[^`~])(?:(?= {2,}\n)|(?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)|[\s\S]*?(?:(?=[\\<!\[`*~_]|\b_|https?:\/\/|ftp:\/\/|www\.|$)|[^ ](?= {2,}\n)|[^a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-](?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)))/},nt={...j,br:h(ae).replace("{2,}","*").getRegex(),text:h(j.text).replace("\\b_","\\b_| {2,}\\n").replace(/\{2,\}/g,"*").getRegex()},B={normal:X,gfm:Oe,pedantic:Be},P={normal:J,gfm:j,breaks:nt,pedantic:tt};var st={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"},fe=l=>st[l];function R(l,e){if(e){if(m.escapeTest.test(l))return l.replace(m.escapeReplace,fe)}else if(m.escapeTestNoEncode.test(l))return l.replace(m.escapeReplaceNoEncode,fe);return l}function V(l){try{l=encodeURI(l).replace(m.percentDecode,"%")}catch{return null}return l}function Y(l,e){let t=l.replace(m.findPipe,(i,r,o)=>{let a=!1,c=r;for(;--c>=0&&o[c]==="\\";)a=!a;return a?"|":" |"}),n=t.split(m.splitPipe),s=0;if(n[0].trim()||n.shift(),n.length>0&&!n.at(-1)?.trim()&&n.pop(),e)if(n.length>e)n.splice(e);else for(;n.length<e;)n.push("");for(;s<n.length;s++)n[s]=n[s].trim().replace(m.slashPipe,"|");return n}function A(l,e,t){let n=l.length;if(n===0)return"";let s=0;for(;s<n;){let i=l.charAt(n-s-1);if(i===e&&!t)s++;else if(i!==e&&t)s++;else break}return l.slice(0,n-s)}function de(l,e){if(l.indexOf(e[1])===-1)return-1;let t=0;for(let n=0;n<l.length;n++)if(l[n]==="\\")n++;else if(l[n]===e[0])t++;else if(l[n]===e[1]&&(t--,t<0))return n;return t>0?-2:-1}function me(l,e,t,n,s){let i=e.href,r=e.title||null,o=l[1].replace(s.other.outputLinkReplace,"$1");n.state.inLink=!0;let a={type:l[0].charAt(0)==="!"?"image":"link",raw:t,href:i,title:r,text:o,tokens:n.inlineTokens(o)};return n.state.inLink=!1,a}function rt(l,e,t){let n=l.match(t.other.indentCodeCompensation);if(n===null)return e;let s=n[1];return e.split(`
+`).map(i=>{let r=i.match(t.other.beginningSpace);if(r===null)return i;let[o]=r;return o.length>=s.length?i.slice(s.length):i}).join(`
+`)}var S=class{options;rules;lexer;constructor(e){this.options=e||w}space(e){let t=this.rules.block.newline.exec(e);if(t&&t[0].length>0)return{type:"space",raw:t[0]}}code(e){let t=this.rules.block.code.exec(e);if(t){let n=t[0].replace(this.rules.other.codeRemoveIndent,"");return{type:"code",raw:t[0],codeBlockStyle:"indented",text:this.options.pedantic?n:A(n,`
+`)}}}fences(e){let t=this.rules.block.fences.exec(e);if(t){let n=t[0],s=rt(n,t[3]||"",this.rules);return{type:"code",raw:n,lang:t[2]?t[2].trim().replace(this.rules.inline.anyPunctuation,"$1"):t[2],text:s}}}heading(e){let t=this.rules.block.heading.exec(e);if(t){let n=t[2].trim();if(this.rules.other.endingHash.test(n)){let s=A(n,"#");(this.options.pedantic||!s||this.rules.other.endingSpaceChar.test(s))&&(n=s.trim())}return{type:"heading",raw:t[0],depth:t[1].length,text:n,tokens:this.lexer.inline(n)}}}hr(e){let t=this.rules.block.hr.exec(e);if(t)return{type:"hr",raw:A(t[0],`
+`)}}blockquote(e){let t=this.rules.block.blockquote.exec(e);if(t){let n=A(t[0],`
+`).split(`
+`),s="",i="",r=[];for(;n.length>0;){let o=!1,a=[],c;for(c=0;c<n.length;c++)if(this.rules.other.blockquoteStart.test(n[c]))a.push(n[c]),o=!0;else if(!o)a.push(n[c]);else break;n=n.slice(c);let p=a.join(`
+`),u=p.replace(this.rules.other.blockquoteSetextReplace,`
+    $1`).replace(this.rules.other.blockquoteSetextReplace2,"");s=s?`${s}
+${p}`:p,i=i?`${i}
+${u}`:u;let d=this.lexer.state.top;if(this.lexer.state.top=!0,this.lexer.blockTokens(u,r,!0),this.lexer.state.top=d,n.length===0)break;let g=r.at(-1);if(g?.type==="code")break;if(g?.type==="blockquote"){let T=g,f=T.raw+`
+`+n.join(`
+`),y=this.blockquote(f);r[r.length-1]=y,s=s.substring(0,s.length-T.raw.length)+y.raw,i=i.substring(0,i.length-T.text.length)+y.text;break}else if(g?.type==="list"){let T=g,f=T.raw+`
+`+n.join(`
+`),y=this.list(f);r[r.length-1]=y,s=s.substring(0,s.length-g.raw.length)+y.raw,i=i.substring(0,i.length-T.raw.length)+y.raw,n=f.substring(r.at(-1).raw.length).split(`
+`);continue}}return{type:"blockquote",raw:s,tokens:r,text:i}}}list(e){let t=this.rules.block.list.exec(e);if(t){let n=t[1].trim(),s=n.length>1,i={type:"list",raw:"",ordered:s,start:s?+n.slice(0,-1):"",loose:!1,items:[]};n=s?`\\d{1,9}\\${n.slice(-1)}`:`\\${n}`,this.options.pedantic&&(n=s?n:"[*+-]");let r=this.rules.other.listItemRegex(n),o=!1;for(;e;){let c=!1,p="",u="";if(!(t=r.exec(e))||this.rules.block.hr.test(e))break;p=t[0],e=e.substring(p.length);let d=t[2].split(`
+`,1)[0].replace(this.rules.other.listReplaceTabs,Z=>" ".repeat(3*Z.length)),g=e.split(`
+`,1)[0],T=!d.trim(),f=0;if(this.options.pedantic?(f=2,u=d.trimStart()):T?f=t[1].length+1:(f=t[2].search(this.rules.other.nonSpaceChar),f=f>4?1:f,u=d.slice(f),f+=t[1].length),T&&this.rules.other.blankLine.test(g)&&(p+=g+`
+`,e=e.substring(g.length+1),c=!0),!c){let Z=this.rules.other.nextBulletRegex(f),te=this.rules.other.hrRegex(f),ne=this.rules.other.fencesBeginRegex(f),se=this.rules.other.headingBeginRegex(f),xe=this.rules.other.htmlBeginRegex(f);for(;e;){let G=e.split(`
+`,1)[0],C;if(g=G,this.options.pedantic?(g=g.replace(this.rules.other.listReplaceNesting,"  "),C=g):C=g.replace(this.rules.other.tabCharGlobal,"    "),ne.test(g)||se.test(g)||xe.test(g)||Z.test(g)||te.test(g))break;if(C.search(this.rules.other.nonSpaceChar)>=f||!g.trim())u+=`
+`+C.slice(f);else{if(T||d.replace(this.rules.other.tabCharGlobal,"    ").search(this.rules.other.nonSpaceChar)>=4||ne.test(d)||se.test(d)||te.test(d))break;u+=`
+`+g}!T&&!g.trim()&&(T=!0),p+=G+`
+`,e=e.substring(G.length+1),d=C.slice(f)}}i.loose||(o?i.loose=!0:this.rules.other.doubleBlankLine.test(p)&&(o=!0));let y=null,ee;this.options.gfm&&(y=this.rules.other.listIsTask.exec(u),y&&(ee=y[0]!=="[ ] ",u=u.replace(this.rules.other.listReplaceTask,""))),i.items.push({type:"list_item",raw:p,task:!!y,checked:ee,loose:!1,text:u,tokens:[]}),i.raw+=p}let a=i.items.at(-1);if(a)a.raw=a.raw.trimEnd(),a.text=a.text.trimEnd();else return;i.raw=i.raw.trimEnd();for(let c=0;c<i.items.length;c++)if(this.lexer.state.top=!1,i.items[c].tokens=this.lexer.blockTokens(i.items[c].text,[]),!i.loose){let p=i.items[c].tokens.filter(d=>d.type==="space"),u=p.length>0&&p.some(d=>this.rules.other.anyLine.test(d.raw));i.loose=u}if(i.loose)for(let c=0;c<i.items.length;c++)i.items[c].loose=!0;return i}}html(e){let t=this.rules.block.html.exec(e);if(t)return{type:"html",block:!0,raw:t[0],pre:t[1]==="pre"||t[1]==="script"||t[1]==="style",text:t[0]}}def(e){let t=this.rules.block.def.exec(e);if(t){let n=t[1].toLowerCase().replace(this.rules.other.multipleSpaceGlobal," "),s=t[2]?t[2].replace(this.rules.other.hrefBrackets,"$1").replace(this.rules.inline.anyPunctuation,"$1"):"",i=t[3]?t[3].substring(1,t[3].length-1).replace(this.rules.inline.anyPunctuation,"$1"):t[3];return{type:"def",tag:n,raw:t[0],href:s,title:i}}}table(e){let t=this.rules.block.table.exec(e);if(!t||!this.rules.other.tableDelimiter.test(t[2]))return;let n=Y(t[1]),s=t[2].replace(this.rules.other.tableAlignChars,"").split("|"),i=t[3]?.trim()?t[3].replace(this.rules.other.tableRowBlankLine,"").split(`
+`):[],r={type:"table",raw:t[0],header:[],align:[],rows:[]};if(n.length===s.length){for(let o of s)this.rules.other.tableAlignRight.test(o)?r.align.push("right"):this.rules.other.tableAlignCenter.test(o)?r.align.push("center"):this.rules.other.tableAlignLeft.test(o)?r.align.push("left"):r.align.push(null);for(let o=0;o<n.length;o++)r.header.push({text:n[o],tokens:this.lexer.inline(n[o]),header:!0,align:r.align[o]});for(let o of i)r.rows.push(Y(o,r.header.length).map((a,c)=>({text:a,tokens:this.lexer.inline(a),header:!1,align:r.align[c]})));return r}}lheading(e){let t=this.rules.block.lheading.exec(e);if(t)return{type:"heading",raw:t[0],depth:t[2].charAt(0)==="="?1:2,text:t[1],tokens:this.lexer.inline(t[1])}}paragraph(e){let t=this.rules.block.paragraph.exec(e);if(t){let n=t[1].charAt(t[1].length-1)===`
+`?t[1].slice(0,-1):t[1];return{type:"paragraph",raw:t[0],text:n,tokens:this.lexer.inline(n)}}}text(e){let t=this.rules.block.text.exec(e);if(t)return{type:"text",raw:t[0],text:t[0],tokens:this.lexer.inline(t[0])}}escape(e){let t=this.rules.inline.escape.exec(e);if(t)return{type:"escape",raw:t[0],text:t[1]}}tag(e){let t=this.rules.inline.tag.exec(e);if(t)return!this.lexer.state.inLink&&this.rules.other.startATag.test(t[0])?this.lexer.state.inLink=!0:this.lexer.state.inLink&&this.rules.other.endATag.test(t[0])&&(this.lexer.state.inLink=!1),!this.lexer.state.inRawBlock&&this.rules.other.startPreScriptTag.test(t[0])?this.lexer.state.inRawBlock=!0:this.lexer.state.inRawBlock&&this.rules.other.endPreScriptTag.test(t[0])&&(this.lexer.state.inRawBlock=!1),{type:"html",raw:t[0],inLink:this.lexer.state.inLink,inRawBlock:this.lexer.state.inRawBlock,block:!1,text:t[0]}}link(e){let t=this.rules.inline.link.exec(e);if(t){let n=t[2].trim();if(!this.options.pedantic&&this.rules.other.startAngleBracket.test(n)){if(!this.rules.other.endAngleBracket.test(n))return;let r=A(n.slice(0,-1),"\\");if((n.length-r.length)%2===0)return}else{let r=de(t[2],"()");if(r===-2)return;if(r>-1){let a=(t[0].indexOf("!")===0?5:4)+t[1].length+r;t[2]=t[2].substring(0,r),t[0]=t[0].substring(0,a).trim(),t[3]=""}}let s=t[2],i="";if(this.options.pedantic){let r=this.rules.other.pedanticHrefTitle.exec(s);r&&(s=r[1],i=r[3])}else i=t[3]?t[3].slice(1,-1):"";return s=s.trim(),this.rules.other.startAngleBracket.test(s)&&(this.options.pedantic&&!this.rules.other.endAngleBracket.test(n)?s=s.slice(1):s=s.slice(1,-1)),me(t,{href:s&&s.replace(this.rules.inline.anyPunctuation,"$1"),title:i&&i.replace(this.rules.inline.anyPunctuation,"$1")},t[0],this.lexer,this.rules)}}reflink(e,t){let n;if((n=this.rules.inline.reflink.exec(e))||(n=this.rules.inline.nolink.exec(e))){let s=(n[2]||n[1]).replace(this.rules.other.multipleSpaceGlobal," "),i=t[s.toLowerCase()];if(!i){let r=n[0].charAt(0);return{type:"text",raw:r,text:r}}return me(n,i,n[0],this.lexer,this.rules)}}emStrong(e,t,n=""){let s=this.rules.inline.emStrongLDelim.exec(e);if(!s||s[3]&&n.match(this.rules.other.unicodeAlphaNumeric))return;if(!(s[1]||s[2]||"")||!n||this.rules.inline.punctuation.exec(n)){let r=[...s[0]].length-1,o,a,c=r,p=0,u=s[0][0]==="*"?this.rules.inline.emStrongRDelimAst:this.rules.inline.emStrongRDelimUnd;for(u.lastIndex=0,t=t.slice(-1*e.length+r);(s=u.exec(t))!=null;){if(o=s[1]||s[2]||s[3]||s[4]||s[5]||s[6],!o)continue;if(a=[...o].length,s[3]||s[4]){c+=a;continue}else if((s[5]||s[6])&&r%3&&!((r+a)%3)){p+=a;continue}if(c-=a,c>0)continue;a=Math.min(a,a+c+p);let d=[...s[0]][0].length,g=e.slice(0,r+s.index+d+a);if(Math.min(r,a)%2){let f=g.slice(1,-1);return{type:"em",raw:g,text:f,tokens:this.lexer.inlineTokens(f)}}let T=g.slice(2,-2);return{type:"strong",raw:g,text:T,tokens:this.lexer.inlineTokens(T)}}}}codespan(e){let t=this.rules.inline.code.exec(e);if(t){let n=t[2].replace(this.rules.other.newLineCharGlobal," "),s=this.rules.other.nonSpaceChar.test(n),i=this.rules.other.startingSpaceChar.test(n)&&this.rules.other.endingSpaceChar.test(n);return s&&i&&(n=n.substring(1,n.length-1)),{type:"codespan",raw:t[0],text:n}}}br(e){let t=this.rules.inline.br.exec(e);if(t)return{type:"br",raw:t[0]}}del(e){let t=this.rules.inline.del.exec(e);if(t)return{type:"del",raw:t[0],text:t[2],tokens:this.lexer.inlineTokens(t[2])}}autolink(e){let t=this.rules.inline.autolink.exec(e);if(t){let n,s;return t[2]==="@"?(n=t[1],s="mailto:"+n):(n=t[1],s=n),{type:"link",raw:t[0],text:n,href:s,tokens:[{type:"text",raw:n,text:n}]}}}url(e){let t;if(t=this.rules.inline.url.exec(e)){let n,s;if(t[2]==="@")n=t[0],s="mailto:"+n;else{let i;do i=t[0],t[0]=this.rules.inline._backpedal.exec(t[0])?.[0]??"";while(i!==t[0]);n=t[0],t[1]==="www."?s="http://"+t[0]:s=t[0]}return{type:"link",raw:t[0],text:n,href:s,tokens:[{type:"text",raw:n,text:n}]}}}inlineText(e){let t=this.rules.inline.text.exec(e);if(t){let n=this.lexer.state.inRawBlock;return{type:"text",raw:t[0],text:t[0],escaped:n}}}};var x=class l{tokens;options;state;tokenizer;inlineQueue;constructor(e){this.tokens=[],this.tokens.links=Object.create(null),this.options=e||w,this.options.tokenizer=this.options.tokenizer||new S,this.tokenizer=this.options.tokenizer,this.tokenizer.options=this.options,this.tokenizer.lexer=this,this.inlineQueue=[],this.state={inLink:!1,inRawBlock:!1,top:!0};let t={other:m,block:B.normal,inline:P.normal};this.options.pedantic?(t.block=B.pedantic,t.inline=P.pedantic):this.options.gfm&&(t.block=B.gfm,this.options.breaks?t.inline=P.breaks:t.inline=P.gfm),this.tokenizer.rules=t}static get rules(){return{block:B,inline:P}}static lex(e,t){return new l(t).lex(e)}static lexInline(e,t){return new l(t).inlineTokens(e)}lex(e){e=e.replace(m.carriageReturn,`
+`),this.blockTokens(e,this.tokens);for(let t=0;t<this.inlineQueue.length;t++){let n=this.inlineQueue[t];this.inlineTokens(n.src,n.tokens)}return this.inlineQueue=[],this.tokens}blockTokens(e,t=[],n=!1){for(this.options.pedantic&&(e=e.replace(m.tabCharGlobal,"    ").replace(m.spaceLine,""));e;){let s;if(this.options.extensions?.block?.some(r=>(s=r.call({lexer:this},e,t))?(e=e.substring(s.raw.length),t.push(s),!0):!1))continue;if(s=this.tokenizer.space(e)){e=e.substring(s.raw.length);let r=t.at(-1);s.raw.length===1&&r!==void 0?r.raw+=`
+`:t.push(s);continue}if(s=this.tokenizer.code(e)){e=e.substring(s.raw.length);let r=t.at(-1);r?.type==="paragraph"||r?.type==="text"?(r.raw+=`
+`+s.raw,r.text+=`
+`+s.text,this.inlineQueue.at(-1).src=r.text):t.push(s);continue}if(s=this.tokenizer.fences(e)){e=e.substring(s.raw.length),t.push(s);continue}if(s=this.tokenizer.heading(e)){e=e.substring(s.raw.length),t.push(s);continue}if(s=this.tokenizer.hr(e)){e=e.substring(s.raw.length),t.push(s);continue}if(s=this.tokenizer.blockquote(e)){e=e.substring(s.raw.length),t.push(s);continue}if(s=this.tokenizer.list(e)){e=e.substring(s.raw.length),t.push(s);continue}if(s=this.tokenizer.html(e)){e=e.substring(s.raw.length),t.push(s);continue}if(s=this.tokenizer.def(e)){e=e.substring(s.raw.length);let r=t.at(-1);r?.type==="paragraph"||r?.type==="text"?(r.raw+=`
+`+s.raw,r.text+=`
+`+s.raw,this.inlineQueue.at(-1).src=r.text):this.tokens.links[s.tag]||(this.tokens.links[s.tag]={href:s.href,title:s.title});continue}if(s=this.tokenizer.table(e)){e=e.substring(s.raw.length),t.push(s);continue}if(s=this.tokenizer.lheading(e)){e=e.substring(s.raw.length),t.push(s);continue}let i=e;if(this.options.extensions?.startBlock){let r=1/0,o=e.slice(1),a;this.options.extensions.startBlock.forEach(c=>{a=c.call({lexer:this},o),typeof a=="number"&&a>=0&&(r=Math.min(r,a))}),r<1/0&&r>=0&&(i=e.substring(0,r+1))}if(this.state.top&&(s=this.tokenizer.paragraph(i))){let r=t.at(-1);n&&r?.type==="paragraph"?(r.raw+=`
+`+s.raw,r.text+=`
+`+s.text,this.inlineQueue.pop(),this.inlineQueue.at(-1).src=r.text):t.push(s),n=i.length!==e.length,e=e.substring(s.raw.length);continue}if(s=this.tokenizer.text(e)){e=e.substring(s.raw.length);let r=t.at(-1);r?.type==="text"?(r.raw+=`
+`+s.raw,r.text+=`
+`+s.text,this.inlineQueue.pop(),this.inlineQueue.at(-1).src=r.text):t.push(s);continue}if(e){let r="Infinite loop on byte: "+e.charCodeAt(0);if(this.options.silent){console.error(r);break}else throw new Error(r)}}return this.state.top=!0,t}inline(e,t=[]){return this.inlineQueue.push({src:e,tokens:t}),t}inlineTokens(e,t=[]){let n=e,s=null;if(this.tokens.links){let o=Object.keys(this.tokens.links);if(o.length>0)for(;(s=this.tokenizer.rules.inline.reflinkSearch.exec(n))!=null;)o.includes(s[0].slice(s[0].lastIndexOf("[")+1,-1))&&(n=n.slice(0,s.index)+"["+"a".repeat(s[0].length-2)+"]"+n.slice(this.tokenizer.rules.inline.reflinkSearch.lastIndex))}for(;(s=this.tokenizer.rules.inline.anyPunctuation.exec(n))!=null;)n=n.slice(0,s.index)+"++"+n.slice(this.tokenizer.rules.inline.anyPunctuation.lastIndex);for(;(s=this.tokenizer.rules.inline.blockSkip.exec(n))!=null;)n=n.slice(0,s.index)+"["+"a".repeat(s[0].length-2)+"]"+n.slice(this.tokenizer.rules.inline.blockSkip.lastIndex);let i=!1,r="";for(;e;){i||(r=""),i=!1;let o;if(this.options.extensions?.inline?.some(c=>(o=c.call({lexer:this},e,t))?(e=e.substring(o.raw.length),t.push(o),!0):!1))continue;if(o=this.tokenizer.escape(e)){e=e.substring(o.raw.length),t.push(o);continue}if(o=this.tokenizer.tag(e)){e=e.substring(o.raw.length),t.push(o);continue}if(o=this.tokenizer.link(e)){e=e.substring(o.raw.length),t.push(o);continue}if(o=this.tokenizer.reflink(e,this.tokens.links)){e=e.substring(o.raw.length);let c=t.at(-1);o.type==="text"&&c?.type==="text"?(c.raw+=o.raw,c.text+=o.text):t.push(o);continue}if(o=this.tokenizer.emStrong(e,n,r)){e=e.substring(o.raw.length),t.push(o);continue}if(o=this.tokenizer.codespan(e)){e=e.substring(o.raw.length),t.push(o);continue}if(o=this.tokenizer.br(e)){e=e.substring(o.raw.length),t.push(o);continue}if(o=this.tokenizer.del(e)){e=e.substring(o.raw.length),t.push(o);continue}if(o=this.tokenizer.autolink(e)){e=e.substring(o.raw.length),t.push(o);continue}if(!this.state.inLink&&(o=this.tokenizer.url(e))){e=e.substring(o.raw.length),t.push(o);continue}let a=e;if(this.options.extensions?.startInline){let c=1/0,p=e.slice(1),u;this.options.extensions.startInline.forEach(d=>{u=d.call({lexer:this},p),typeof u=="number"&&u>=0&&(c=Math.min(c,u))}),c<1/0&&c>=0&&(a=e.substring(0,c+1))}if(o=this.tokenizer.inlineText(a)){e=e.substring(o.raw.length),o.raw.slice(-1)!=="_"&&(r=o.raw.slice(-1)),i=!0;let c=t.at(-1);c?.type==="text"?(c.raw+=o.raw,c.text+=o.text):t.push(o);continue}if(e){let c="Infinite loop on byte: "+e.charCodeAt(0);if(this.options.silent){console.error(c);break}else throw new Error(c)}}return t}};var $=class{options;parser;constructor(e){this.options=e||w}space(e){return""}code({text:e,lang:t,escaped:n}){let s=(t||"").match(m.notSpaceStart)?.[0],i=e.replace(m.endingNewline,"")+`
+`;return s?'<pre><code class="language-'+R(s)+'">'+(n?i:R(i,!0))+`</code></pre>
+`:"<pre><code>"+(n?i:R(i,!0))+`</code></pre>
+`}blockquote({tokens:e}){return`<blockquote>
+${this.parser.parse(e)}</blockquote>
+`}html({text:e}){return e}heading({tokens:e,depth:t}){return`<h${t}>${this.parser.parseInline(e)}</h${t}>
+`}hr(e){return`<hr>
+`}list(e){let t=e.ordered,n=e.start,s="";for(let o=0;o<e.items.length;o++){let a=e.items[o];s+=this.listitem(a)}let i=t?"ol":"ul",r=t&&n!==1?' start="'+n+'"':"";return"<"+i+r+`>
+`+s+"</"+i+`>
+`}listitem(e){let t="";if(e.task){let n=this.checkbox({checked:!!e.checked});e.loose?e.tokens[0]?.type==="paragraph"?(e.tokens[0].text=n+" "+e.tokens[0].text,e.tokens[0].tokens&&e.tokens[0].tokens.length>0&&e.tokens[0].tokens[0].type==="text"&&(e.tokens[0].tokens[0].text=n+" "+R(e.tokens[0].tokens[0].text),e.tokens[0].tokens[0].escaped=!0)):e.tokens.unshift({type:"text",raw:n+" ",text:n+" ",escaped:!0}):t+=n+" "}return t+=this.parser.parse(e.tokens,!!e.loose),`<li>${t}</li>
+`}checkbox({checked:e}){return"<input "+(e?'checked="" ':"")+'disabled="" type="checkbox">'}paragraph({tokens:e}){return`<p>${this.parser.parseInline(e)}</p>
+`}table(e){let t="",n="";for(let i=0;i<e.header.length;i++)n+=this.tablecell(e.header[i]);t+=this.tablerow({text:n});let s="";for(let i=0;i<e.rows.length;i++){let r=e.rows[i];n="";for(let o=0;o<r.length;o++)n+=this.tablecell(r[o]);s+=this.tablerow({text:n})}return s&&(s=`<tbody>${s}</tbody>`),`<table>
+<thead>
+`+t+`</thead>
+`+s+`</table>
+`}tablerow({text:e}){return`<tr>
+${e}</tr>
+`}tablecell(e){let t=this.parser.parseInline(e.tokens),n=e.header?"th":"td";return(e.align?`<${n} align="${e.align}">`:`<${n}>`)+t+`</${n}>
+`}strong({tokens:e}){return`<strong>${this.parser.parseInline(e)}</strong>`}em({tokens:e}){return`<em>${this.parser.parseInline(e)}</em>`}codespan({text:e}){return`<code>${R(e,!0)}</code>`}br(e){return"<br>"}del({tokens:e}){return`<del>${this.parser.parseInline(e)}</del>`}link({href:e,title:t,tokens:n}){let s=this.parser.parseInline(n),i=V(e);if(i===null)return s;e=i;let r='<a href="'+e+'"';return t&&(r+=' title="'+R(t)+'"'),r+=">"+s+"</a>",r}image({href:e,title:t,text:n,tokens:s}){s&&(n=this.parser.parseInline(s,this.parser.textRenderer));let i=V(e);if(i===null)return R(n);e=i;let r=`<img src="${e}" alt="${n}"`;return t&&(r+=` title="${R(t)}"`),r+=">",r}text(e){return"tokens"in e&&e.tokens?this.parser.parseInline(e.tokens):"escaped"in e&&e.escaped?e.text:R(e.text)}};var _=class{strong({text:e}){return e}em({text:e}){return e}codespan({text:e}){return e}del({text:e}){return e}html({text:e}){return e}text({text:e}){return e}link({text:e}){return""+e}image({text:e}){return""+e}br(){return""}};var b=class l{options;renderer;textRenderer;constructor(e){this.options=e||w,this.options.renderer=this.options.renderer||new $,this.renderer=this.options.renderer,this.renderer.options=this.options,this.renderer.parser=this,this.textRenderer=new _}static parse(e,t){return new l(t).parse(e)}static parseInline(e,t){return new l(t).parseInline(e)}parse(e,t=!0){let n="";for(let s=0;s<e.length;s++){let i=e[s];if(this.options.extensions?.renderers?.[i.type]){let o=i,a=this.options.extensions.renderers[o.type].call({parser:this},o);if(a!==!1||!["space","hr","heading","code","table","blockquote","list","html","paragraph","text"].includes(o.type)){n+=a||"";continue}}let r=i;switch(r.type){case"space":{n+=this.renderer.space(r);continue}case"hr":{n+=this.renderer.hr(r);continue}case"heading":{n+=this.renderer.heading(r);continue}case"code":{n+=this.renderer.code(r);continue}case"table":{n+=this.renderer.table(r);continue}case"blockquote":{n+=this.renderer.blockquote(r);continue}case"list":{n+=this.renderer.list(r);continue}case"html":{n+=this.renderer.html(r);continue}case"paragraph":{n+=this.renderer.paragraph(r);continue}case"text":{let o=r,a=this.renderer.text(o);for(;s+1<e.length&&e[s+1].type==="text";)o=e[++s],a+=`
+`+this.renderer.text(o);t?n+=this.renderer.paragraph({type:"paragraph",raw:a,text:a,tokens:[{type:"text",raw:a,text:a,escaped:!0}]}):n+=a;continue}default:{let o='Token with "'+r.type+'" type was not found.';if(this.options.silent)return console.error(o),"";throw new Error(o)}}}return n}parseInline(e,t=this.renderer){let n="";for(let s=0;s<e.length;s++){let i=e[s];if(this.options.extensions?.renderers?.[i.type]){let o=this.options.extensions.renderers[i.type].call({parser:this},i);if(o!==!1||!["escape","html","link","image","strong","em","codespan","br","del","text"].includes(i.type)){n+=o||"";continue}}let r=i;switch(r.type){case"escape":{n+=t.text(r);break}case"html":{n+=t.html(r);break}case"link":{n+=t.link(r);break}case"image":{n+=t.image(r);break}case"strong":{n+=t.strong(r);break}case"em":{n+=t.em(r);break}case"codespan":{n+=t.codespan(r);break}case"br":{n+=t.br(r);break}case"del":{n+=t.del(r);break}case"text":{n+=t.text(r);break}default:{let o='Token with "'+r.type+'" type was not found.';if(this.options.silent)return console.error(o),"";throw new Error(o)}}}return n}};var L=class{options;block;constructor(e){this.options=e||w}static passThroughHooks=new Set(["preprocess","postprocess","processAllTokens"]);preprocess(e){return e}postprocess(e){return e}processAllTokens(e){return e}provideLexer(){return this.block?x.lex:x.lexInline}provideParser(){return this.block?b.parse:b.parseInline}};var E=class{defaults=z();options=this.setOptions;parse=this.parseMarkdown(!0);parseInline=this.parseMarkdown(!1);Parser=b;Renderer=$;TextRenderer=_;Lexer=x;Tokenizer=S;Hooks=L;constructor(...e){this.use(...e)}walkTokens(e,t){let n=[];for(let s of e)switch(n=n.concat(t.call(this,s)),s.type){case"table":{let i=s;for(let r of i.header)n=n.concat(this.walkTokens(r.tokens,t));for(let r of i.rows)for(let o of r)n=n.concat(this.walkTokens(o.tokens,t));break}case"list":{let i=s;n=n.concat(this.walkTokens(i.items,t));break}default:{let i=s;this.defaults.extensions?.childTokens?.[i.type]?this.defaults.extensions.childTokens[i.type].forEach(r=>{let o=i[r].flat(1/0);n=n.concat(this.walkTokens(o,t))}):i.tokens&&(n=n.concat(this.walkTokens(i.tokens,t)))}}return n}use(...e){let t=this.defaults.extensions||{renderers:{},childTokens:{}};return e.forEach(n=>{let s={...n};if(s.async=this.defaults.async||s.async||!1,n.extensions&&(n.extensions.forEach(i=>{if(!i.name)throw new Error("extension name required");if("renderer"in i){let r=t.renderers[i.name];r?t.renderers[i.name]=function(...o){let a=i.renderer.apply(this,o);return a===!1&&(a=r.apply(this,o)),a}:t.renderers[i.name]=i.renderer}if("tokenizer"in i){if(!i.level||i.level!=="block"&&i.level!=="inline")throw new Error("extension level must be 'block' or 'inline'");let r=t[i.level];r?r.unshift(i.tokenizer):t[i.level]=[i.tokenizer],i.start&&(i.level==="block"?t.startBlock?t.startBlock.push(i.start):t.startBlock=[i.start]:i.level==="inline"&&(t.startInline?t.startInline.push(i.start):t.startInline=[i.start]))}"childTokens"in i&&i.childTokens&&(t.childTokens[i.name]=i.childTokens)}),s.extensions=t),n.renderer){let i=this.defaults.renderer||new $(this.defaults);for(let r in n.renderer){if(!(r in i))throw new Error(`renderer '${r}' does not exist`);if(["options","parser"].includes(r))continue;let o=r,a=n.renderer[o],c=i[o];i[o]=(...p)=>{let u=a.apply(i,p);return u===!1&&(u=c.apply(i,p)),u||""}}s.renderer=i}if(n.tokenizer){let i=this.defaults.tokenizer||new S(this.defaults);for(let r in n.tokenizer){if(!(r in i))throw new Error(`tokenizer '${r}' does not exist`);if(["options","rules","lexer"].includes(r))continue;let o=r,a=n.tokenizer[o],c=i[o];i[o]=(...p)=>{let u=a.apply(i,p);return u===!1&&(u=c.apply(i,p)),u}}s.tokenizer=i}if(n.hooks){let i=this.defaults.hooks||new L;for(let r in n.hooks){if(!(r in i))throw new Error(`hook '${r}' does not exist`);if(["options","block"].includes(r))continue;let o=r,a=n.hooks[o],c=i[o];L.passThroughHooks.has(r)?i[o]=p=>{if(this.defaults.async)return Promise.resolve(a.call(i,p)).then(d=>c.call(i,d));let u=a.call(i,p);return c.call(i,u)}:i[o]=(...p)=>{let u=a.apply(i,p);return u===!1&&(u=c.apply(i,p)),u}}s.hooks=i}if(n.walkTokens){let i=this.defaults.walkTokens,r=n.walkTokens;s.walkTokens=function(o){let a=[];return a.push(r.call(this,o)),i&&(a=a.concat(i.call(this,o))),a}}this.defaults={...this.defaults,...s}}),this}setOptions(e){return this.defaults={...this.defaults,...e},this}lexer(e,t){return x.lex(e,t??this.defaults)}parser(e,t){return b.parse(e,t??this.defaults)}parseMarkdown(e){return(n,s)=>{let i={...s},r={...this.defaults,...i},o=this.onError(!!r.silent,!!r.async);if(this.defaults.async===!0&&i.async===!1)return o(new Error("marked(): The async option was set to true by an extension. Remove async: false from the parse options object to return a Promise."));if(typeof n>"u"||n===null)return o(new Error("marked(): input parameter is undefined or null"));if(typeof n!="string")return o(new Error("marked(): input parameter is of type "+Object.prototype.toString.call(n)+", string expected"));r.hooks&&(r.hooks.options=r,r.hooks.block=e);let a=r.hooks?r.hooks.provideLexer():e?x.lex:x.lexInline,c=r.hooks?r.hooks.provideParser():e?b.parse:b.parseInline;if(r.async)return Promise.resolve(r.hooks?r.hooks.preprocess(n):n).then(p=>a(p,r)).then(p=>r.hooks?r.hooks.processAllTokens(p):p).then(p=>r.walkTokens?Promise.all(this.walkTokens(p,r.walkTokens)).then(()=>p):p).then(p=>c(p,r)).then(p=>r.hooks?r.hooks.postprocess(p):p).catch(o);try{r.hooks&&(n=r.hooks.preprocess(n));let p=a(n,r);r.hooks&&(p=r.hooks.processAllTokens(p)),r.walkTokens&&this.walkTokens(p,r.walkTokens);let u=c(p,r);return r.hooks&&(u=r.hooks.postprocess(u)),u}catch(p){return o(p)}}}onError(e,t){return n=>{if(n.message+=`
+Please report this to https://github.com/markedjs/marked.`,e){let s="<p>An error occurred:</p><pre>"+R(n.message+"",!0)+"</pre>";return t?Promise.resolve(s):s}if(t)return Promise.reject(n);throw n}}};var M=new E;function k(l,e){return M.parse(l,e)}k.options=k.setOptions=function(l){return M.setOptions(l),k.defaults=M.defaults,N(k.defaults),k};k.getDefaults=z;k.defaults=w;k.use=function(...l){return M.use(...l),k.defaults=M.defaults,N(k.defaults),k};k.walkTokens=function(l,e){return M.walkTokens(l,e)};k.parseInline=M.parseInline;k.Parser=b;k.parser=b.parse;k.Renderer=$;k.TextRenderer=_;k.Lexer=x;k.lexer=x.lex;k.Tokenizer=S;k.Hooks=L;k.parse=k;var it=k.options,ot=k.setOptions,lt=k.use,at=k.walkTokens,ct=k.parseInline,pt=k,ut=b.parse,ht=x.lex;
+
+if(__exports != exports)module.exports = exports;return module.exports}));
+
+;
 // Source: js/class/framework/Utils.js
 /*
  * Util.js
@@ -129385,7 +129451,6 @@ class Utils {
      * @returns {String} Le hash sous forme de chaîne hexadécimale.
      */
     static genererHash(str) {
-        console.log("string to hash:", str);
         let hash = 5381;
         for (let i = 0; i < str.length; i++) {
             hash = ((hash << 5) + hash) + str.charCodeAt(i);
@@ -129429,7 +129494,7 @@ class Utils {
      */
     static getExtensionURL(path) {
         const normalise = path.startsWith('/') ? path.slice(1) : path;
-        // Images servies dynamiquement (mises à jour via gh-pages)
+        // Images servies dynamiquement (mises à jour via la branche release)
         if (normalise.startsWith('images/') && typeof window !== 'undefined' && window.OUTIIIL_DYNAMIC_IMAGES) {
             const url = window.OUTIIIL_DYNAMIC_IMAGES[normalise];
             if (url) return url;
@@ -130575,10 +130640,7 @@ Utils.register(class Logger {
         const targetClasses = ["BoiteSignalement", "Signalement", className];
 
         if (infos && infos.fichier) {
-            if (targetClasses.some(cls => infos.fichier.includes(cls))) {
-                if (console._log) console._log(`[Logger.#estLogAIgnorer] DEBUG: IGNORING log, fichier=${infos.fichier} matched cls=${targetClasses.find(cls => infos.fichier.includes(cls))}`);
-                return true;
-            }
+            if (targetClasses.some(cls => infos.fichier.includes(cls))) return true;
         }
 
         if (args && args.length > 0) {
@@ -130611,10 +130673,7 @@ Utils.register(class Logger {
         const className = this.constructor.name;
         const targetClasses = ["BoiteSignalement", "Signalement", className];
 
-        if (log.fichier && targetClasses.some(cls => log.fichier.includes(cls))) {
-            if (console._log) console._log(`[Logger.#estLogAIgnorerDansHistorique] DEBUG: IGNORING log, fichier=${log.fichier} matched cls=${targetClasses.find(cls => log.fichier.includes(cls))}`);
-            return true;
-        }
+        if (log.fichier && targetClasses.some(cls => log.fichier.includes(cls))) return true;
 
         if (Array.isArray(log.arguments) && log.arguments.length > 0) {
             const premierArg = String(log.arguments[0] || "");
@@ -130656,16 +130715,9 @@ Utils.register(class Logger {
         await this.#acquireLock();
         try {
             const infos = this.#extraireInfosStack(stackUtilisee);
-            if (!infos) {
-                if (console._log) console._log(`[Logger.enregistrerLog] DEBUG: no infos extracted from stack`);
-                return;
-            }
-            if (console._log) console._log(`[Logger.enregistrerLog] DEBUG: fichier=${infos.fichier}, fonction=${infos.fonction}, ligne=${infos.ligne}, type=${type}, args0=${String(args[0] || "").substring(0, 80)}`);
+            if (!infos) return;
 
-            if (this.#estLogAIgnorer(infos, args)) {
-                if (console._log) console._log(`[Logger.enregistrerLog] DEBUG: IGNORED log, fichier=${infos.fichier}`);
-                return;
-            }
+            if (this.#estLogAIgnorer(infos, args)) return;
 
             const logObj = {
                 date,
@@ -132011,13 +132063,10 @@ Utils.register(class Logger {
 
                 // 1. Liaison par instance de Logger (uniquement pour les signalements automatiques)
                 if (!estManuel && this.idSujet) {
-                    if (console._log) console._log(`[${this.constructor.name}.posterLogs] réutilisation sujet existant idSujet=${this.idSujet}, sujetCreeParCetteInstance=${this.sujetCreeParCetteInstance}`);
                     if (this.sujetCreeParCetteInstance) {
                         // Procéder directement à la mise à jour des logs
                         return await this.#mettreAJourLogsSujetExistant(this.idSujet, messageOptionnel);
                     } else {
-                        // Ignorer les erreurs ultérieures si le sujet n'a pas été créé par cette instance
-                        if (console._log) console._log(`[${this.constructor.name}.posterLogs] sujet non créé par cette instance, abandon.`);
                         return false;
                     }
                 }
@@ -132426,31 +132475,22 @@ Utils.register(class Logger {
         if (!progressState) progressState = { lastPct: -1 };
 
         if (this.historique.length === 0) {
-            if (console._log) console._log(`[${this.constructor.name}.#envoyerTousLesLogs] historique vide, rien à poster.`);
             await this.#notifyProgress(callbackProgression, 100, progressState);
             return true;
         }
 
-        if (console._log) console._log(`[${this.constructor.name}.#envoyerTousLesLogs] historique=${this.historique.length}, erreurCatchée=${!!erreurCatchée}`);
-
         let logsAEnvoyer = this.historique.filter(log => !this.#estLogAIgnorerDansHistorique(log));
-        if (console._log) console._log(`[${this.constructor.name}.#envoyerTousLesLogs] DEBUG: historique files=[${this.historique.map(l => l.fichier).join(", ")}]`);
-        if (console._log) console._log(`[${this.constructor.name}.#envoyerTousLesLogs] DEBUG: after ignore filter=${logsAEnvoyer.length} (ignored ${this.historique.length - logsAEnvoyer.length})`);
 
         // Filtrage par périmètre de distance dans l'arbre d'appel pour un signalement automatique
         if (erreurCatchée) {
             const rawStackErr = erreurCatchée.stack || String(erreurCatchée);
             const stackFramesErr = this.#extraireFramesStack(rawStackErr);
 
-            if (console._log) console._log(`[${this.constructor.name}.#envoyerTousLesLogs] stackFramesErr=${stackFramesErr.length}`, stackFramesErr);
-
             if (stackFramesErr.length > 0) {
                 logsAEnvoyer = logsAEnvoyer.filter(log => {
                     const dist = this.#calculerDistanceStack(stackFramesErr, log.stackFrames);
-                    if (console._log) console._log(`[${this.constructor.name}.#envoyerTousLesLogs] log frames=${JSON.stringify(log.stackFrames)} dist=${dist}`);
                     return dist <= LOGGER_PERIMETRE_STACK_DISTANCE;
                 });
-                if (console._log) console._log(`[${this.constructor.name}.#envoyerTousLesLogs] après filtre distance=${logsAEnvoyer.length}`);
             }
         }
 
@@ -134081,6 +134121,7 @@ Utils.register(class Dock {
             <div id="o_toolbarItem5" class="o_toolbarItem" title="Carte"><span id="o_itemMap" style="background-image: url(__IMG_SPRITE_MENU__)"/></div>
             <div id="o_toolbarItem6" class="o_toolbarItem" title="Préférence"><span id="o_itemParametre" style="background-image: url(__IMG_SPRITE_MENU__)"/></div>
             <div id="o_toolbarItem7" class="o_toolbarItem" title="Signaler un bug"><span id="o_itemBug" style="background-image: url(__IMG_SPRITE_MENU__)"/></div>
+            <div id="o_toolbarItem8" class="o_toolbarItem" title="Documentation"><span id="o_itemDoc"/></div>
             </div>`;
         /**
         *
@@ -134110,6 +134151,10 @@ Utils.register(class Dock {
         *
         */
         this._boiteSignalement = new BoiteSignalement();
+        /**
+         *
+         */
+        this._boiteDocumentation = new BoiteDocumentation();
     }
     /**
     * Affiche la boite.
@@ -134176,6 +134221,9 @@ Utils.register(class Dock {
                     break;
                 case "o_itemBug":
                     await this._boiteSignalement.afficher();
+                    break;
+                case "o_itemDoc":
+                    await this._boiteDocumentation.afficher();
                     break;
                 default:
                     break;
@@ -141815,12 +141863,19 @@ Utils.register(class BoiteComptePlus {
     */
     async #verifierDonnees() {
         // si la construction est fini
-        if (this._construction && moment(this._expConstruction).diff(moment()) < 0) {
+        if (this._construction && this.#tacheTerminee(this._expConstruction)) {
             // on met à jour le niveau de la construction
-            let index = CONSTRUCTION.findIndex((elt) => { return this._construction.toLowerCase().includes(elt.toLowerCase()); });
-            let constructions = await monProfilJoueur.lire('Niveaux Constructions');
-            constructions[index]++;
-            await monProfilJoueur.ecrire("Niveaux Constructions", constructions);
+            // (isolé : la construction doit être retirée de la boîte même si la mise à jour échoue)
+            try {
+                let index = CONSTRUCTION.findIndex((elt) => { return this._construction.toLowerCase().includes(elt.toLowerCase()); });
+                let constructions = await monProfilJoueur.lire('Niveaux Constructions');
+                constructions[index]++;
+                await monProfilJoueur.ecrire("Niveaux Constructions", constructions);
+                // le niveau doit être persisté, sinon le localStorage conserve un niveau périmé
+                await monProfilJoueur.enregistrerLocalStorage();
+            } catch (e) {
+                console.error("[ComptePlus] Erreur lors de la mise à jour du niveau de la construction terminée :", e);
+            }
             // si la construction est une evolution de ponte, on met a jour les pontes
             if (this._construction.includes("Couveuse") || this._construction.includes("Solarium"))
                 this.#recalculeTempsPonte();
@@ -141829,12 +141884,18 @@ Utils.register(class BoiteComptePlus {
             this._construction = "";
         }
         // si la recherche est fini
-        if (this._recherche && moment(this._expRecherche).diff(moment()) < 0) {
+        if (this._recherche && this.#tacheTerminee(this._expRecherche)) {
             // on met à jour le niveau de la recherche
-            let index = RECHERCHE.findIndex((elt) => { return this._recherche.toLowerCase().includes(elt.toLowerCase()); });
-            let recherches = await monProfilJoueur.lire('Niveaux Recherches');
-            recherches[index]++;
-            await monProfilJoueur.ecrire("Niveaux Recherches", recherches);
+            try {
+                let index = RECHERCHE.findIndex((elt) => { return this._recherche.toLowerCase().includes(elt.toLowerCase()); });
+                let recherches = await monProfilJoueur.lire('Niveaux Recherches');
+                recherches[index]++;
+                await monProfilJoueur.ecrire("Niveaux Recherches", recherches);
+                // le niveau doit être persisté, sinon le localStorage conserve un niveau périmé
+                await monProfilJoueur.enregistrerLocalStorage();
+            } catch (e) {
+                console.error("[ComptePlus] Erreur lors de la mise à jour du niveau de la recherche terminée :", e);
+            }
             // si la recherche est une evolution de ponte, on met a jour les pontes
             if (this._recherche.includes("Technique de ponte"))
                 this.#recalculeTempsPonte();
@@ -141865,16 +141926,32 @@ Utils.register(class BoiteComptePlus {
         return this.sauvegarder();
     }
     /**
+     * Indique si une tâche (construction/recherche) est terminée.
+     * Une date de fin absente ou illisible est considérée comme terminée : la tâche est
+     * alors retirée de la boîte, plutôt que d'y rester avec un timer qui ne redescend pas.
+     *
+     * @private
+     * @method #tacheTerminee
+     * @param {String|Number|Date} exp Date de fin de la tâche.
+     * @return {Boolean} Vrai si la tâche est terminée.
+     */
+    #tacheTerminee(exp) {
+        if (!exp) return true;
+        let fin = moment(exp);
+        if (!fin.isValid()) return true;
+        return fin.diff(moment()) < 0;
+    }
+    /**
     * @private
     */
     #recalculeTempsPonte() {
         this._ponte.forEach((ponte) => { ponte.exp = moment().add(Math.round((moment(ponte.exp).diff(moment()) / 1000) * 0.9), 's'); });
     }
     /**
-* Affiche la boite.
-*
-* @method afficher
-*/
+    * Affiche la boite.
+    *
+    * @method afficher
+    */
     async afficher() {
         let visible = localStorage.getItem("outiiil_boiteActive");
         if (!Utils.comptePlus) {
@@ -142426,6 +142503,684 @@ Utils.register(class BoiteSignalement extends Boite {
         });
 
         return this;
+    }
+});
+
+;
+// Source: js/class/boite/Documentation.js
+/*
+ * BoiteDocumentation.js
+ * Hraesvelg
+ **********************************************************************/
+
+// URL de repli GitHub (branche par défaut) pour les liens de doc inconnus dans le bundle.
+const OUTIIIL_DOC_GITHUB_BASE_URL = 'https://github.com/ArpegorPSGH/Outiiil/blob/dev/documentation/';
+
+/**
+ * Boîte du dock permettant de consulter la documentation intégrée au bundle
+ * (versionné avec le runtime, listé dans version.json sous la clé "docs").
+ *
+ * Chaque fichier de documentation donne lieu à un onglet (titre = title du fichier).
+ * Le markdown est rendu côté client via la lib `marked` et accompagne un plan
+ * (table des matières) arbre repliable : seuls les titres h2 sont visibles par
+ * défaut, les niveaux inférieurs (h3, h4…) se développent via un chevron à gauche
+ * de chaque titre (▶ collapsé → ▼ développé). Le plan est placé dans une colonne
+ * à gauche du contenu et peut être masqué/affiché via une bande verticale sur
+ * son bord droit (chevron > / <). La boîte est entièrement redimensionnable.
+ *
+ * Le contenu est résolu par le background (DOCUMENTATION runtime message) car le
+ * runtime, injecté dans le monde MAIN de fourmizzz.fr, est soumis au CSP/CORS de la
+ * page et ne peut pas fetch() le markdown directement.
+ *
+ * @class BoiteDocumentation
+ * @constructor
+ * @extends Boite
+ */
+Utils.register(class BoiteDocumentation extends Boite {
+    constructor() {
+        const content = `<div id="o_tabsDoc" class="o_tabs">
+            <ul class="o_docTabsNav"></ul>
+        </div>`;
+        super("o_boiteDocumentation", "Documentation", content);
+        /**
+         * Liste des documents {file, title} issue de version.json (cache).
+         * @type {?Array}
+         */
+        this._docs = null;
+        /**
+         * Cache texte brut des documents déjà téléchargés {file: text}.
+         * @type {Map}
+         */
+        this._cache = new Map();
+        /**
+         * Index du document déjà rendu (évite de re-rendre).
+         * @type {Set}
+         */
+        this._rendered = new Set();
+        /**
+         * Tabs jQuery UI déjà initialisées.
+         * @type {boolean}
+         */
+        this._tabsReady = false;
+    }
+
+    /**
+     * Affiche la boîte. À la première création, charge la liste des documents
+     * (version.json) et construit les onglets.
+     *
+     * @method afficher
+     */
+    async afficher() {
+        const bCreate = await super.afficher();
+        if (bCreate) {
+            const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+            const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+            const initW = Math.min(1100, Math.max(750, Math.floor(vw * 0.75)));
+            const initH = Math.min(750, Math.max(500, Math.floor(vh * 0.70)));
+            const initTop = 30;
+            const initLeft = Math.max(60, Math.floor((vw - initW) / 2 + 100));
+
+            $j("#o_boiteDocumentation").css({
+                width: initW + "px",
+                height: initH + "px",
+                top: initTop + "px",
+                left: initLeft + "px"
+            });
+
+            await this.#loadList();
+            this.#initResizable();
+        }
+        await this.css().event();
+        return this;
+    }
+
+    /**
+     * Applique le style propre à la boîte (thème utilisateur + contenus markdown).
+     *
+     * @method css
+     */
+    css() {
+        super.css();
+        const couleurTexte = monProfilUtilisateur.parametre["couleurTexte"].valeur;
+        const couleur2 = monProfilUtilisateur.parametre["couleur2"].valeur;
+        const couleur1 = monProfilUtilisateur.parametre["couleur1"].valeur;
+
+        $j("#o_boiteDocumentation .o_tabs .ui-widget-header .ui-tabs-anchor").css({
+            "background-color": couleur2,
+            "color": couleurTexte
+        });
+        $j("#o_boiteDocumentation .o_docToc").css({
+            "background-color": couleur1,
+            "color": couleurTexte
+        });
+        $j("#o_boiteDocumentation .o_docTocHandle").css({
+            "background-color": couleur2,
+            "color": couleurTexte
+        });
+        $j("#o_boiteDocumentation .o_docTocHandleChevron, #o_boiteDocumentation .o_docTocChevron").css("color", couleurTexte);
+        $j("#o_boiteDocumentation .o_docTocItemHeader a, #o_boiteDocumentation .o_docContent a").css("color", couleurTexte);
+        $j("#o_boiteDocumentation .o_docContent h1, #o_boiteDocumentation .o_docContent h2, " +
+            "#o_boiteDocumentation .o_docContent h3, #o_boiteDocumentation .o_docContent h4, " +
+            "#o_boiteDocumentation .o_docContent h5, #o_boiteDocumentation .o_docContent h6").css("color", couleurTexte);
+        $j("#o_boiteDocumentation .o_docContent p, #o_boiteDocumentation .o_docContent li, " +
+            "#o_boiteDocumentation .o_docContent td, #o_boiteDocumentation .o_docContent th, " +
+            "#o_boiteDocumentation .o_docContent code, #o_boiteDocumentation .o_docContent blockquote, " +
+            "#o_boiteDocumentation .o_docToc").css("color", couleurTexte);
+        return this;
+    }
+
+    /**
+     * Ajoute les événements propres à la boîte.
+     *
+     * @method event
+     */
+    event() {
+        super.event();
+        // Toggle de la visibilité du plan via la bande verticale sur son bord droit
+        $j("#o_tabsDoc").off("click", ".o_docTocHandle").on("click", ".o_docTocHandle", (e) => {
+            e.preventDefault();
+            const $handle = $j(e.currentTarget);
+            const $inner = $handle.closest(".o_docInner");
+            const hide = !$inner.hasClass("o_docTocHidden");
+            $inner.toggleClass("o_docTocHidden", hide);
+            $handle.find(".o_docTocHandleChevron").text(hide ? ">" : "<");
+            $handle.attr("title", hide ? "Afficher le plan" : "Masquer le plan");
+            this.#updateTocWidth();
+        });
+        // Expand / collapse des titres du plan (chevron à gauche de chaque titre)
+        $j("#o_tabsDoc").off("click", ".o_docTocChevron").on("click", ".o_docTocChevron", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            const $chevron = $j(e.currentTarget);
+            if ($chevron.hasClass("o_docTocChevronPlaceholder")) return;
+            $chevron.closest(".o_docTocItem").toggleClass("open");
+            this.#updateTocWidth();
+        });
+        // Navigation vers une ancre dans le contenu du document
+        $j("#o_tabsDoc").off("click", ".o_docTocLink").on("click", ".o_docTocLink", (e) => {
+            const href = $j(e.currentTarget).attr("href");
+            if (href && href.indexOf("#") === 0) {
+                e.preventDefault();
+                const id = href.substring(1);
+                const $target = $j("#o_tabsDoc .o_docContent [id='" + id + "']");
+                if ($target.length) {
+                    $target[0].scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+            }
+        });
+        // Recalcul du plan sur redimensionnement de la fenêtre
+        $j(window).off("resize.o_doc").on("resize.o_doc", () => {
+            this.#updateTocWidth();
+        });
+        return this;
+    }
+
+    /**
+     * Ajuste la largeur de la colonne du plan : conserve un pourcentage fixe de la
+     * largeur totale de la boîte, plafonné à la largeur de la plus longue ligne de titre visible.
+     *
+     * @method #updateTocWidth
+     * @private
+     * @param {jQuery} [panel]
+     */
+    #updateTocWidth(panel) {
+        const $panel = panel || $j("#o_tabsDoc .o_docPanel:visible");
+        if (!$panel.length) return;
+        const $wrapper = $panel.find(".o_docTocWrapper");
+        if (!$wrapper.length || $wrapper.closest(".o_docInner").hasClass("o_docTocHidden")) return;
+
+        const $box = $j("#o_boiteDocumentation");
+        const boxWidth = $box.outerWidth() || 800;
+        const targetWidth = boxWidth * 0.28; // 28% de la largeur totale
+
+        // Mesurer la largeur sans retour à la ligne de la plus longue ligne de titre visible
+        let maxTitleWidth = 0;
+        $panel.find(".o_docTocItemHeader:visible").each((_, header) => {
+            const $link = $j(header).find(".o_docTocLink");
+            const oldWS = $link.css("white-space");
+            $link.css("white-space", "nowrap");
+            const width = header.scrollWidth + 24;
+            $link.css("white-space", oldWS);
+            if (width > maxTitleWidth) maxTitleWidth = width;
+        });
+
+        if (maxTitleWidth > 0) {
+            const finalWidth = Math.min(targetWidth, maxTitleWidth);
+            $wrapper.css("width", Math.max(120, finalWidth) + "px");
+        } else {
+            $wrapper.css("width", targetWidth + "px");
+        }
+    }
+
+    /**
+     * Récupère la liste des documents. La liste (issue de version.json, reflétée
+     * dans la globale OUTIIIL_DOC_MANIFEST générée au build) est lue directement.
+     * En mode dev (sans bundle), une liste de repli par défaut est utilisée.
+     *
+     * @method #loadList
+     * @private
+     */
+    #loadList() {
+        let manifest = window.OUTIIIL_DOC_MANIFEST;
+        if (!Array.isArray(manifest) || !manifest.length) {
+            manifest = [
+                { file: "documentation/installation.md", title: "Installation et mise à jour du socle Outiiil" }
+            ];
+        }
+        this._docs = manifest;
+        this.#buildTabs();
+    }
+
+    /**
+     * Construit les onglets jQuery UI (un par document) et ouvre le premier.
+     *
+     * @method #buildTabs
+     * @private
+     */
+    #buildTabs() {
+        const nav = $j("#o_tabsDoc > ul.o_docTabsNav");
+        nav.empty();
+        $j("#o_tabsDoc > .o_docPanel").remove();
+
+        const pageUrl = window.location.href.split("#")[0];
+
+        if (!this._docs.length) {
+            const emptyHref = pageUrl + "#o_doc_empty";
+            nav.append('<li class="o_docNavItem"><a href="' + emptyHref + '">Documentation</a></li>');
+            $j("#o_tabsDoc").append('<div class="o_docPanel" data-file="" id="o_doc_empty">' +
+                '<p style="padding:12px;">Aucune documentation disponible. Lancez <code>python scripts/lib/build_bundle.py</code> puis rechargez la page.</p></div>');
+            if (!this._tabsReady) {
+                $j("#o_tabsDoc").tabs({
+                    hide: { duration: 0 },
+                    beforeLoad: (event, ui) => { event.preventDefault(); }
+                }).removeClass("ui-widget");
+                this._tabsReady = true;
+            }
+            return;
+        }
+
+        this._docs.forEach((doc, i) => {
+            const tabId = "o_doc_" + i;
+            const fullHref = pageUrl + "#" + tabId;
+            nav.append('<li class="o_docNavItem" data-idx="' + i + '"><a href="' + fullHref + '">' +
+                BoiteDocumentation.escape(doc.title || doc.file) + '</a></li>');
+            $j("#o_tabsDoc").append('<div id="' + tabId + '" class="o_docPanel" data-idx="' + i + '" ' +
+                'data-file="' + BoiteDocumentation.escape(doc.file) + '" ' +
+                'style="padding:0;border:0;outline:none;"></div>');
+        });
+
+        $j("#o_tabsDoc").tabs({
+            hide: { duration: 0 },
+            show: { duration: 0 },
+            beforeLoad: (event, ui) => {
+                event.preventDefault();
+            },
+            activate: (e, ui) => {
+                this.#onTabActivated(ui.newPanel);
+                this.css();
+            }
+        }).removeClass("ui-widget");
+        this._tabsReady = true;
+        // rendu du premier onglet (l'événement activate n'est pas toujours déclenché
+        // lors de l'initialisation si l'onglet 0 est déjà actif).
+        const activeIdx = $j("#o_tabsDoc").tabs("option", "active");
+        this.#onTabActivated($j("#o_doc_" + activeIdx));
+    }
+
+    /**
+     * Initialise le redimensionnement multi-directionnel de la boîte sur ses 4 bords
+     * et 4 angles, modifiant la forme du curseur de la souris (flèches).
+     *
+     * @method #initResizable
+     * @private
+     */
+    #initResizable() {
+        const $box = $j("#o_boiteDocumentation");
+        if ($box.find(".o_resizer").length) return;
+
+        const directions = ["n", "s", "e", "w", "nw", "ne", "se", "sw"];
+        directions.forEach((dir) => {
+            $box.append('<div class="o_resizer o_resizer_' + dir + '" data-dir="' + dir + '"></div>');
+        });
+
+        let activeDir = null;
+        let startX, startY, startW, startH, startTop, startLeft;
+
+        $box.on("mousedown", ".o_resizer", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            activeDir = $j(e.currentTarget).data("dir");
+
+            const box = $box[0];
+            startX = e.clientX;
+            startY = e.clientY;
+            startW = box.offsetWidth;
+            startH = box.offsetHeight;
+            startTop = box.offsetTop;
+            startLeft = box.offsetLeft;
+
+            const minW = 450;
+            const minH = 300;
+
+            const onMove = (ev) => {
+                if (!activeDir) return;
+                const dx = ev.clientX - startX;
+                const dy = ev.clientY - startY;
+                let newW = startW;
+                let newH = startH;
+                let newTop = startTop;
+                let newLeft = startLeft;
+
+                if (activeDir.indexOf("e") !== -1) {
+                    newW = Math.max(minW, startW + dx);
+                }
+                if (activeDir.indexOf("s") !== -1) {
+                    newH = Math.max(minH, startH + dy);
+                }
+                if (activeDir.indexOf("w") !== -1) {
+                    newW = Math.max(minW, startW - dx);
+                    newLeft = startLeft + (startW - newW);
+                }
+                if (activeDir.indexOf("n") !== -1) {
+                    newH = Math.max(minH, startH - dy);
+                    newTop = startTop + (startH - newH);
+                }
+
+                $box.css({
+                    width: newW + "px",
+                    height: newH + "px",
+                    top: newTop + "px",
+                    left: newLeft + "px"
+                });
+
+                this.#updateTocWidth();
+            };
+
+            const onUp = () => {
+                activeDir = null;
+                $j(document).off("mousemove", onMove).off("mouseup", onUp);
+            };
+
+            $j(document).on("mousemove", onMove).on("mouseup", onUp);
+        });
+    }
+
+    /**
+     * Rendu différé d'un onglet au moment de sa sélection.
+     *
+     * @method #onTabActivated
+     * @private
+     */
+    async #onTabActivated(panel) {
+        const idx = parseInt(panel.data("idx"));
+        if (isNaN(idx) || !this._docs[idx]) return;
+        // éviter de rendre plusieurs fois
+        if (this._rendered.has(idx)) return;
+        this._rendered.add(idx);
+        panel.html('<p style="padding:12px;">Chargement de la documentation…</p>');
+        await this.#renderDoc(this._docs[idx], panel);
+    }
+
+    /**
+     * Résout le texte du document (cache ou globale bundle) puis le rend.
+     *
+     * @method #renderDoc
+     * @private
+     */
+    async #renderDoc(doc, panel) {
+        let text = this._cache.get(doc.file);
+        if (text === undefined) {
+            const texts = window.OUTIIIL_DOC_TEXTS || {};
+            if (doc.file && texts[doc.file] !== undefined) {
+                text = texts[doc.file];
+            } else if (doc.file) {
+                // En mode dev (sans bundle), récupérer le fichier via le background
+                // qui peut fetch() un chrome-extension:// URL (le monde MAIN ne peut pas).
+                text = await BoiteDocumentation.#fetchDocViaBackground(doc.file);
+            } else {
+                text = "";
+            }
+            if (text) this._cache.set(doc.file, text);
+        }
+        const wrapper = this.#renderMarkdown(text, doc);
+        panel.html(wrapper);
+        // on réapplique le thème sur le contenu fraîchement injecté
+        this.css();
+        this.#updateTocWidth(panel);
+    }
+
+    /**
+     * Récupère un fichier de documentation en mode dev via postMessage vers le
+     * bridge (le monde MAIN ne peut pas fetch() un chrome-extension:// URL).
+     *
+     * @method #fetchDocViaBackground
+     * @private
+     * @static
+     * @param {string} file
+     * @returns {Promise<string>}
+     */
+    static #fetchDocViaBackground(file) {
+        const requestId = '__outiiil_doc_' + Date.now() + '_' + Math.random().toString(36).slice(2);
+        return new Promise((resolve) => {
+            const handler = (event) => {
+                const data = event.data;
+                if (!data || data.target !== 'outiiil' || data.type !== 'GET_DOC_RESPONSE') return;
+                if (data.requestId !== requestId) return;
+                window.removeEventListener('message', handler);
+                resolve((data.ok && data.result) ? data.result.text : "");
+            };
+            window.addEventListener('message', handler);
+            window.postMessage({
+                type: 'GET_DOC',
+                target: 'outiiil',
+                requestId: requestId,
+                file: file
+            }, '*');
+            // Timeout de secours
+            setTimeout(() => {
+                window.removeEventListener('message', handler);
+                resolve("");
+            }, 15000);
+        });
+    }
+
+    /**
+     * Parse le markdown avec `marked`, génère des id d'ancre robustes,
+     * reconstruit les liens internes et produit le bloc complet (plan + contenu).
+     *
+     * @method #renderMarkdown
+     * @private
+     * @param {string} md
+     * @param {{file:string}} doc Document courant (pour la résolution des liens inter-documents).
+     * @returns {string} HTML à injecter
+     */
+    #renderMarkdown(md, doc) {
+        let html = "";
+        if (typeof marked !== "undefined" && typeof marked.parse === "function") {
+            // marked n'ajoute pas d'id aux titres par défaut ; on les génère nous-même
+            // (slufigiés) pour garantir la cohérence titre ↔ ancre ↔ plan.
+            html = marked.parse(md || "", { gfm: true, breaks: true });
+        } else {
+            // repli très basique si la lib est manquante
+            html = "<pre>" + BoiteDocumentation.escape(md || "") + "</pre>";
+        }
+
+        const $root = $j("<div>").html(html);
+        const usedHeadings = new Set();
+        const tocEntries = [];
+
+        // 1) id d'ancre sur chaque titre + collecte du plan
+        $root.find("h1,h2,h3,h4,h5,h6").each((_, h) => {
+            const $h = $j(h);
+            const text = $h.text();
+            let id = BoiteDocumentation.slugify(text);
+            let base = id, n = 1;
+            while (usedHeadings.has(id)) { id = base + "-" + (n++); }
+            usedHeadings.add(id);
+            $h.attr("id", id);
+            tocEntries.push({ level: parseInt(h.tagName.charAt(1), 10), id: id, text: text });
+        });
+
+        // 2) réécriture des liens (ancres internes + navigation inter-documents)
+        this.#rewriteLinks($root, usedHeadings, doc);
+
+        // 3) construction du plan arbre collapsable (h2 visibles par défaut)
+        const tocHtml = this.#buildTocTree(tocEntries);
+
+        return '<div class="o_docInner">' +
+            '<div class="o_docTocWrapper">' +
+                '<nav class="o_docToc">' + tocHtml + '</nav>' +
+            '</div>' +
+            '<div class="o_docTocHandle" title="Masquer le plan">' +
+                '<span class="o_docTocHandleChevron">&lt;</span>' +
+            '</div>' +
+            '<div class="o_docContent">' + $root.html() + "</div>" +
+            "</div>";
+    }
+
+    /**
+     * Construit l'arbre hiérarchique du plan de lecture à partir de la liste
+     * plate des titres. Seuls les titres de niveau ≥ 2 (h2…) apparaissent dans
+     * le plan — le h1 est le titre du document (déjà utilisé comme titre d'onglet).
+     * Les sous-niveaux (h3, h4…) sont encapsulés dans des <ul> collapsables
+     * masqués par défaut et développables via un chevron à gauche de chaque titre.
+     *
+     * @method #buildTocTree
+     * @private
+     * @param {Array<{level:number,id:string,text:string}>} entries
+     * @returns {string} HTML du plan
+     */
+    #buildTocTree(entries) {
+        // Ne garder que les titres de niveau ≥ 2 (h1 = titre du document)
+        const items = entries.filter(e => e.level >= 2);
+        if (!items.length) return "";
+
+        // Construction de l'arbre hiérarchique via une pile
+        const root = { level: 1, children: [] };
+        const stack = [root];
+
+        for (const entry of items) {
+            // Remonter dans la pile jusqu'au parent (dernier titre de niveau inférieur)
+            while (stack.length > 1 && stack[stack.length - 1].level >= entry.level) {
+                stack.pop();
+            }
+            const node = { level: entry.level, id: entry.id, text: entry.text, children: [] };
+            stack[stack.length - 1].children.push(node);
+            stack.push(node);
+        }
+
+        return this.#renderTocNodes(root.children, true);
+    }
+
+    /**
+     * Rendu récursif des nœuds du plan (arbre collapsable).
+     *
+     * @method #renderTocNodes
+     * @private
+     * @param {Array} nodes Nœuds à rendre.
+     * @param {boolean} [isRoot=false] True pour le niveau racine (h2).
+     * @returns {string} HTML du <ul>
+     */
+    #renderTocNodes(nodes, isRoot = false) {
+        if (!nodes.length) return "";
+        const listClass = isRoot ? "o_docTocList" : "o_docTocSub";
+        let html = '<ul class="' + listClass + '">';
+        for (const node of nodes) {
+            const hasChildren = node.children.length > 0;
+            html += '<li class="o_docTocItem">';
+            html += '<div class="o_docTocItemHeader">';
+            if (hasChildren) {
+                html += '<span class="o_docTocChevron"></span>';
+            } else {
+                html += '<span class="o_docTocChevronPlaceholder"></span>';
+            }
+            html += '<a href="#' + node.id + '" class="o_docTocLink">' + BoiteDocumentation.escape(node.text) + '</a>';
+            html += '</div>';
+            html += this.#renderTocNodes(node.children);
+            html += '</li>';
+        }
+        html += "</ul>";
+        return html;
+    }
+
+    /**
+     * Réécrit les ancres/links markdown pour qu'ils fonctionnent dans la boîte.
+     *  - ancre intra-fichier (#frag) → #mon-id-de-titre
+     *  - lien vers un .md connu (autre document) → navigation interne (chargement de l'onglet)
+     *  - lien vers un .md inconnu → GitHub blob (branche dev)
+     *
+     * @method #rewriteLinks
+     * @private
+     */
+    #rewriteLinks($root, usedHeadings, doc) {
+        const docs = this._docs || [];
+        const knownFiles = new Map(); // basename -> {file, idx}
+        docs.forEach((d, idx) => {
+            const base = d.file ? d.file.split("/").pop().toLowerCase() : "";
+            if (base) knownFiles.set(base, { file: d.file, idx: idx });
+        });
+        const currentFile = (doc && doc.file) ? doc.file : "";
+        const currentBase = currentFile ? currentFile.split("/").pop().toLowerCase() : "";
+
+        $root.find("a[href]").each((_, a) => {
+            const $a = $j(a);
+            const href = $a.attr("href") || "";
+            if (!href || href.indexOf("://") !== -1 || href.indexOf("mailto:") === 0) return;
+
+            const fragIdx = href.indexOf("#");
+            const filePart = fragIdx >= 0 ? href.substring(0, fragIdx) : href;
+            let frag = fragIdx >= 0 ? href.substring(fragIdx + 1) : "";
+            const qIdx = frag.indexOf("?");
+            if (qIdx >= 0) frag = frag.substring(0, qIdx);
+
+            const fileBase = filePart ? filePart.split("/").pop().toLowerCase() : "";
+
+            // intra-fichier (pas de fichier, ou même fichier) → ancre interne
+            if (!filePart || fileBase === currentBase) {
+                if (frag) {
+                    const id = BoiteDocumentation.slugify(decodeURIComponent(frag));
+                    if (usedHeadings.has(id)) {
+                        $a.attr("href", "#" + id);
+                    } else {
+                        $a.get(0).removeAttribute("href");
+                    }
+                } else {
+                    // lien vers le fichier lui-même sans ancre → retire (déjà affiché)
+                    $a.get(0).removeAttribute("href");
+                }
+                return;
+            }
+
+            // lien vers un autre document du bundle → navigation dans la boîte
+            if (knownFiles.has(fileBase)) {
+                const target = knownFiles.get(fileBase);
+                $a.attr("href", "#" + (frag ? encodeURIComponent(frag) : ""));
+                $a.off("click.doc").on("click.doc", (e) => {
+                    e.preventDefault();
+                    this.#switchToDoc(target.idx, frag);
+                });
+                return;
+            }
+
+            // document inconnu → GitHub blob (branche par défaut)
+            $a.attr("href", OUTIIIL_DOC_GITHUB_BASE_URL + (filePart || "") + (frag ? "#" + frag : ""));
+        });
+    }
+
+    /**
+     * Passe à l'onglet d'un autre document (et y rend le fragment ancré si possible).
+     *
+     * @method #switchToDoc
+     * @private
+     */
+    async #switchToDoc(idx, frag) {
+        if (!this._docs[idx]) {
+            $j.toast({ ...TOAST_ERROR, text: "Document introuvable dans la documentation." });
+            return;
+        }
+        const $tabs = $j("#o_tabsDoc");
+        $tabs.tabs("option", "active", idx);
+        const panel = $j("#o_doc_" + idx);
+        if (!this._rendered.has(idx)) {
+            await this.#renderDoc(this._docs[idx], panel);
+        }
+        if (frag) {
+            const id = BoiteDocumentation.slugify(decodeURIComponent(frag));
+            const $target = $j("#o_doc_" + idx + " .o_docContent [id='" + id + "']");
+            if ($target.length) {
+                $target[0].scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
+    }
+
+    /**
+     * Slugifie un texte en ancre (identique à l'algorithme appliqué aux fragments
+     * de liens), ce qui garantit la cohérence titre ↔ ancre dans la boîte.
+     *
+     * @static
+     * @method slugify
+     */
+    static slugify(str) {
+        return String(str || "")
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w\s-]/g, "")
+            .trim()
+            .replace(/\s+/g, "-")
+            .replace(/-+/g, "-")
+            .replace(/^-+|-+$/g, "");
+    }
+
+    /**
+     * Échappe un texte pour l'insérer en tant que texte (et attribut) HTML.
+     *
+     * @static
+     * @method escape
+     */
+    static escape(html) {
+        return String(html == null ? "" : html)
+            .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
     }
 });
 
@@ -145319,6 +146074,28 @@ Utils.register(class Joueur extends ObjetForum {
         }
     }
 
+    /**
+     * Indique si la tâche (construction ou recherche) enregistrée dans la boîte C+ est arrivée
+     * à échéance. Une date de fin absente ou illisible est considérée comme échue : la page du
+     * jeu doit alors être relue pour réaligner la boîte.
+     * @param {String} type - "construction" ou "recherche".
+     * @returns {Boolean} - Vrai si une tâche est enregistrée et que sa date de fin est dépassée.
+     * @private
+     */
+    #tacheExpiree(type) {
+        try {
+            const data = JSON.parse(localStorage.getItem("outiiil_evolution")) || {};
+            if (!data[type]) return false; // Pas de tâche enregistrée : rien à expirer
+            if (!data["exp" + type]) return true; // Tâche enregistrée sans date de fin : échue
+            const fin = moment(data["exp" + type]);
+            if (!fin.isValid()) return true;
+            return fin.diff(moment()) < 0;
+        } catch (e) {
+            console.warn("[Joueur] Lecture de la progression impossible :", e);
+            return false;
+        }
+    }
+
     async estJoueurCourant() {
         const estCourant = await this.lire('Pseudo') == await monProfilJoueur.lire('Pseudo');
         if (estCourant && this.idSujet) { //S'assurer que le chargement inclu bien le forum
@@ -145394,15 +146171,16 @@ Utils.register(class Joueur extends ObjetForum {
         if (!html) {
             await this.chargerDepuisLocalStorage("outiiil_joueur");
             const levels = await this.lire('Niveaux Constructions');
-            if (levels.every((elt) => elt == -1)) {
-                try {
-                    html = await $j.ajax({ url: "http://" + Utils.serveur + ".fourmizzz.fr/construction.php" });
-                } catch (error) {
-                    console.error(`[Joueur] Erreur AJAX lors de la récupération des constructions.`, error);
-                    return false;
-                }
-            } else {
-                return true;
+            // La page du jeu est relue si les niveaux sont inconnus ou si la construction enregistrée
+            // dans la boîte est arrivée à échéance (l'extension n'a pas été rafraîchie pendant la
+            // construction). C'est la seule façon de connaître la date de fin réelle et de réaligner
+            // le chrono de la boîte, qui serait sinon décalé.
+            if (!levels.every((elt) => elt == -1) && !this.#tacheExpiree('construction')) return true;
+            try {
+                html = await $j.ajax({ url: "http://" + Utils.serveur + ".fourmizzz.fr/construction.php" });
+            } catch (error) {
+                console.error(`[Joueur] Erreur AJAX lors de la récupération des constructions.`, error);
+                return false;
             }
         }
 
@@ -145412,7 +146190,9 @@ Utils.register(class Joueur extends ObjetForum {
         await this.ecrire('Niveaux Constructions', levels);
         console.log(`[Joueur.chargerConstruction] Niveaux de construction chargés pour ${await this.lire('Pseudo')}:`, levels);
 
-        let ligne = parsed.find("#centre strong").text(),
+        // Même sélecteur que la page construction.php : le bloc central peut contenir plusieurs
+        // <strong>, dont la concaténation fausserait le temps restant (et donc la date de fin).
+        let ligne = parsed.find("#centre > strong").text(),
             construction = ligne.substring(2, ligne.indexOf("se termine") - 1),
             time = parseInt(ligne.split(',')[0].split('(')[1]);
 
@@ -145420,12 +146200,23 @@ Utils.register(class Joueur extends ObjetForum {
         // si il y a une construction en cours les données expirent à la fin de cette construction
         if (construction) {
             let dataEvo = JSON.parse(localStorage.getItem("outiiil_evolution")) || {};
-            // si on a pas de donné ou que la consutrction n'est pas deja enregistré
-            if (!dataEvo.hasOwnProperty("construction")) {
+            // on enregistre la construction si elle est inconnue ou si celle connue est terminée
+            // (sinon la boîte conserve une construction périmée et son timer ne redescend jamais à zéro)
+            if (!dataEvo.hasOwnProperty("construction") || !dataEvo.expConstruction || moment(dataEvo.expConstruction).diff(moment()) < 0) {
                 // si on pas les infos en localstorage
                 dataEvo.construction = construction.substr(0, 1).toUpperCase() + construction.substr(1);
                 dataEvo.expConstruction = moment().add(time, 's');
                 dataEvo.startConstruction = moment();
+                localStorage.setItem("outiiil_evolution", JSON.stringify(dataEvo));
+            }
+        } else {
+            // aucune construction en cours : celle éventuellement enregistrée est terminée,
+            // on la retire pour éviter d'incrémenter son niveau une seconde fois
+            let dataEvo = JSON.parse(localStorage.getItem("outiiil_evolution")) || {};
+            if (dataEvo.hasOwnProperty("construction") && dataEvo.expConstruction && moment(dataEvo.expConstruction).diff(moment()) < 0) {
+                delete dataEvo.construction;
+                delete dataEvo.expConstruction;
+                delete dataEvo.startConstruction;
                 localStorage.setItem("outiiil_evolution", JSON.stringify(dataEvo));
             }
         }
@@ -145444,15 +146235,16 @@ Utils.register(class Joueur extends ObjetForum {
         if (!html) {
             await this.chargerDepuisLocalStorage("outiiil_joueur");
             const levels = await this.lire('Niveaux Recherches');
-            if (levels.every((elt) => elt == -1)) {
-                try {
-                    html = await $j.ajax({ url: "http://" + Utils.serveur + ".fourmizzz.fr/laboratoire.php" });
-                } catch (error) {
-                    console.error(`[Joueur] Erreur AJAX lors de la récupération des recherches.`, error);
-                    return false;
-                }
-            } else {
-                return true;
+            // La page du jeu est relue si les niveaux sont inconnus ou si la recherche enregistrée
+            // dans la boîte est arrivée à échéance (l'extension n'a pas été rafraîchie pendant la
+            // recherche). C'est la seule façon de connaître la date de fin réelle et de réaligner
+            // le chrono de la boîte, qui serait sinon décalé.
+            if (!levels.every((elt) => elt == -1) && !this.#tacheExpiree('recherche')) return true;
+            try {
+                html = await $j.ajax({ url: "http://" + Utils.serveur + ".fourmizzz.fr/laboratoire.php" });
+            } catch (error) {
+                console.error(`[Joueur] Erreur AJAX lors de la récupération des recherches.`, error);
+                return false;
             }
         }
 
@@ -145470,12 +146262,23 @@ Utils.register(class Joueur extends ObjetForum {
         // si il y a une recherche en cours les données expirent à la fin de cette construction
         if (recherche) {
             let dataEvo = JSON.parse(localStorage.getItem("outiiil_evolution")) || {};
-            // si on a pas de donné ou que la recherche n'est pas deja enregistré
-            if (!dataEvo.hasOwnProperty("recherche")) {
+            // on enregistre la recherche si elle est inconnue ou si celle connue est terminée
+            // (sinon la boîte conserve une recherche périmée et son timer ne redescend jamais à zéro)
+            if (!dataEvo.hasOwnProperty("recherche") || !dataEvo.expRecherche || moment(dataEvo.expRecherche).diff(moment()) < 0) {
                 // si on pas les infos en localstorage
                 dataEvo.recherche = recherche;
                 dataEvo.expRecherche = moment().add(time, 's');
                 dataEvo.startRecherche = moment();
+                localStorage.setItem("outiiil_evolution", JSON.stringify(dataEvo));
+            }
+        } else {
+            // aucune recherche en cours : celle éventuellement enregistrée est terminée,
+            // on la retire pour éviter d'incrémenter son niveau une seconde fois
+            let dataEvo = JSON.parse(localStorage.getItem("outiiil_evolution")) || {};
+            if (dataEvo.hasOwnProperty("recherche") && dataEvo.expRecherche && moment(dataEvo.expRecherche).diff(moment()) < 0) {
+                delete dataEvo.recherche;
+                delete dataEvo.expRecherche;
+                delete dataEvo.startRecherche;
                 localStorage.setItem("outiiil_evolution", JSON.stringify(dataEvo));
             }
         }
@@ -148718,8 +149521,10 @@ Utils.register(class Construction extends Page {
         if (niveau.join(",") != constructions.join(",")) {
             constructions = niveau;
             await monProfilJoueur.ecrire("Niveaux Constructions", constructions);
-            await monProfilJoueur.enregistrerLocalStorage();
         }
+        // la sauvegarde est toujours effectuée : le localStorage doit refléter l'état réel du jeu,
+        // même si la valeur en mémoire était déjà identique (sinon le niveau périmé est conservé)
+        await monProfilJoueur.enregistrerLocalStorage();
     }
     /**
     * Ajoute un title detaillé pour connaitre la rentabilité de la construction : etable à pucerons.
@@ -148755,10 +149560,12 @@ Utils.register(class Construction extends Page {
     plus() {
         if (Utils.comptePlus) return;
         // Affichage de la fin de la construction
-        if ($j("#centre > strong").length)
-            $j("#centre > strong").after(`<span class='small'> Terminé le ${Utils.roundMinute($j("#centre > strong").text().split(',')[0].split('(')[1]).format("D MMM YYYY à HH[h]mm")}</span>`);
+        let str = $j("#centre > strong").text();
+        let temps = parseInt(str.split(',')[0].split('(')[1]);
+        if ($j("#centre > strong").length && !isNaN(temps))
+            $j("#centre > strong").after(`<span class='small'> Terminé le ${Utils.roundMinute(temps).format("D MMM YYYY à HH[h]mm")}</span>`);
         // Sauvegarde de la construction en cours
-        this.#saveConstruction();
+        this.#saveConstruction(str);
         // Suppresion de la construction en cours si on annule
         if ($j("a:contains('Annuler')").length)
             $j("a:contains('Annuler')").click((e) => {
@@ -148770,15 +149577,17 @@ Utils.register(class Construction extends Page {
         return this;
     }
     /**
-    * Sauvegarde la construction en cours.
-    *
-    * @private
-    * @method #saveConstruction
-    */
-    #saveConstruction() {
-        let str = $j("#centre > strong").text();
+     * Sauvegarde la construction en cours.
+     *
+     * @private
+     * @method #saveConstruction
+     * @param {String} str - Texte de statut de la construction affiché par la page.
+     */
+    #saveConstruction(str) {
         let construction = str.substring(2, str.indexOf("se termine") - 1);
-        if (construction && (!boiteComptePlus.construction || moment().diff(moment(boiteComptePlus.expConstruction), 's') > 0) && !Utils.comptePlus && $j("#boiteComptePlus").length) {
+        if (construction && !Utils.comptePlus && $j("#boiteComptePlus").length) {
+            // la page fait foi : la construction enregistrée dans la boîte est alignée sur celle
+            // affichée par la page, afin que le timer corresponde toujours à la date de fin prévue
             boiteComptePlus.construction = construction.substr(0, 1).toUpperCase() + construction.substr(1);
             boiteComptePlus.expConstruction = moment().add(parseInt(str.split(',')[0].split('(')[1]), 's');
             boiteComptePlus.startConstruction = moment();
@@ -149010,8 +149819,10 @@ Utils.register(class Laboratoire extends Page {
         if (niveau.join(",") != recherches.join(",")) {
             recherches = niveau;
             await monProfilJoueur.ecrire("Niveaux Recherches", recherches);
-            await monProfilJoueur.enregistrerLocalStorage();
         }
+        // la sauvegarde est toujours effectuée : le localStorage doit refléter l'état réel du jeu,
+        // même si la valeur en mémoire était déjà identique (sinon le niveau périmé est conservé)
+        await monProfilJoueur.enregistrerLocalStorage();
     }
     /**
     * Ajoute un title detaillé pour connaitre la rentabilité du niveau bouclier.
@@ -149083,10 +149894,12 @@ Utils.register(class Laboratoire extends Page {
     plus() {
         if (Utils.comptePlus) return;
         // Affichage de la fin de la recherche
-        if ($j("#centre > strong").length)
-            $j("#centre > strong").after(`<span class='small'> Terminé le ${Utils.roundMinute($j("#centre > strong").text().split(',')[0].split('(')[1]).format("D MMM YYYY à HH[h]mm")}</span>`);
+        let str = $j("#centre strong").text();
+        let temps = parseInt(str.split(",")[0].split("(")[1]);
+        if ($j("#centre > strong").length && !isNaN(temps))
+            $j("#centre > strong").after(`<span class='small'> Terminé le ${Utils.roundMinute(temps).format("D MMM YYYY à HH[h]mm")}</span>`);
         // Sauvegarde de la recherche en cours
-        this.#saveRecherche();
+        this.#saveRecherche(str);
         // Suppresion de la recherche en cours si on annule
         if ($j("a:contains('Je confirme')").length)
             $j("a:contains('Je confirme')").click((e) => {
@@ -149098,16 +149911,18 @@ Utils.register(class Laboratoire extends Page {
         return this;
     }
     /**
-    * Sauvegarde la recherche en cours.
-    *
-    * @private
-    * @method #saveRecherche
-    * @return
-    */
-    #saveRecherche() {
-        let str = $j("#centre strong").text();
+     * Sauvegarde la recherche en cours.
+     *
+     * @private
+     * @method #saveRecherche
+     * @param {String} str - Texte de statut de la recherche affiché par la page.
+     * @return
+     */
+    #saveRecherche(str) {
         let recherche = str.substring(2, str.indexOf("termin") - 1);
-        if (recherche && (!boiteComptePlus.recherche || moment().diff(moment(boiteComptePlus.expRecherche), 's') > 0) && !Utils.comptePlus && $j("#boiteComptePlus").length) {
+        if (recherche && !Utils.comptePlus && $j("#boiteComptePlus").length) {
+            // la page fait foi : la recherche enregistrée dans la boîte est alignée sur celle
+            // affichée par la page, afin que le timer corresponde toujours à la date de fin prévue
             boiteComptePlus.recherche = recherche.substr(0, 1).toUpperCase() + recherche.substr(1);
             boiteComptePlus.expRecherche = moment().add(parseInt(str.split(",")[0].split("(")[1]), 's');
             boiteComptePlus.startRecherche = moment();
@@ -150211,7 +151026,6 @@ Utils.register(class Ennemie extends Page {
                 // console.error('test duplication:', [{ 'listetest': listetest, 'dictest': dictest }, 'supplément']);
                 // console.error('test duplication2:', [{ 'listetest': listetest, 'dictest': dictest }, 'supplément']);
                 // console.error('test duplication2:', { base: [listetest, dictest], complement: 'supplément' });
-                console.error('test');
 
                 await gestionnaireSections.chargerSections();
 
@@ -150346,3 +151160,6 @@ async function initialiserFrameworkGlobal() {
 }
 
 ;
+// --- Documentation bundle (built from documentation/*.md) ---
+window.OUTIIIL_DOC_MANIFEST = [{"file": "documentation/installation.md", "title": "Installation et mise à jour du socle Outiiil"}];
+window.OUTIIIL_DOC_TEXTS = {"documentation/installation.md": "# Installation et mise à jour du socle Outiiil\n\n> **À quoi sert le socle ?** Le *socle* (bootstrap statique) est l'extension installée une fois dans le navigateur. Il contient `manifest.json`, `js/background.js` (service worker), `js/bridge.js` (content script isolé) et les icônes. Le socle orchestre les mises à jour et injecte dynamiquement le **runtime** (logique du jeu) téléchargé depuis GitHub Pages.\n>\n> Le runtime est mis à jour **automatiquement** par le socle — aucune action de votre part n'est nécessaire en temps normal.\n>\n> Le **socle** lui-même n'est mis à jour que rarement, lorsque ses propres fichiers évoluent. Quand cela arrive, le runtime est **bloqué** et un **toast de mise à jour bloquée** s'affiche sur fourmizzz.fr avec un bouton pour télécharger le nouveau socle. La procédure ci-dessous détaille alors la réinstallation du socle.\n\n---\n\n> **Prérequis commun** : Outiiil est une extension basée sur l'API `chrome.userScripts.register()` avec `world: \"MAIN\"`. Elle nécessite un navigateur supportant Manifest V3 et les *user scripts*.\n>\n> Navigateurs compatibles : **Chrome 120+**, **Microsoft Edge 120+**, **Brave 120+**, **Firefox 121+**, **Firefox pour Android 121+**, **Orion (iOS 16+) en bêta**.\n>\n> L'extension agit sur le site **[www.fourmizzz.fr](https://www.fourmizzz.fr/)**.\n>\n> Outiiil utilise une architecture en deux couches : le **socle** (bootstrap statique, installé une fois) orchestre les mises à jour et télécharge dynamiquement le **runtime** (logique du jeu) depuis `https://arpegorpsgh.github.io/Outiiil/dist/`. Les mises à jour du jeu ne nécessitent donc pas de réinstaller l'extension.\n\n---\n\n## 1. Pour les utilisateurs — Installation sur PC\n\n### Étape 1 — Télécharger le socle depuis GitHub\n\n1. Ouvrez [https://github.com/ArpegorPSGH/Outiiil/releases](https://github.com/ArpegorPSGH/Outiiil/releases) dans votre navigateur.\n2. Sous la **dernière version stable**, téléchargez le fichier **`Outiiil-v<version>.zip`** (ex. `Outiiil-v3.22.2.zip`) en cliquant sur **Assets**.\n3. Extrayez l'archive dans un dossier dédié, par exemple `Outiiil`.\n   > Le dossier extrait contient `manifest.json`, `js/`, `css/`, `images/`, etc.\n\n### Étape 2 — Accéder à la page des extensions\n\n| Navigateur | Menu de navigation (GUI) | URL directe |\n|---|---|---|\n| **Chrome** | `⋮` → **Extensions** → **Gérer les extensions** | `chrome://extensions` |\n| **Edge** | `…` → **Modules complémentaires** → **Extensions** | `edge://extensions` |\n| **Brave** | `☰` → **Extensions** | `brave://extensions` |\n| **Firefox** | `☰` → **Modules complémentaires** → **Mode développeur** (bas de page) | `about:debugging` → **Ce Firefox** |\n| **Orion (iOS)** | Ouvrir Orion → **Réglages** (icône engrenage) → **Extensions** | — |\n\n### Étape 3 — Installer le socle (selon votre navigateur)\n\n#### Google Chrome / Microsoft Edge / Brave (Windows, macOS, Linux) — v120 minimum\n\n1. Rendez-vous sur la page des extensions de votre navigateur :\n   - **Chrome** : `chrome://extensions/`\n   - **Edge** : `edge://extensions/`\n   - **Brave** : `brave://extensions/`\n2. Activez le **Mode développeur**.\n3. Cliquez sur **Charger l'extension non empaquetée** (*Load unpacked*).\n4. Sélectionnez le dossier extrait à l'[Étape 1](#étape-1--télécharger-le-socle-depuis-github).\n5. L'extension **Outiiil** apparaît dans la liste. Cliquez sur **Détails** et activez le bouton **Scripts utilisateurs** dans la section Permissions.\n   > ⚠️ Sans cette option, `chrome.userScripts` n'est pas disponible et le runtime ne peut pas s'injecter sur fourmizzz.fr.\n\n#### Mozilla Firefox (Windows, macOS, Linux) — v121 minimum\n\n1. Rendez-vous sur **`about:debugging`**.\n2. Cliquez sur **Ce Firefox** (*This Firefox*).\n3. Activez **Mode développeur**.\n4. Cliquez sur **Charger un module permanent** (*Load Permanent Add-on*).\n5. Dans le dossier extrait, sélectionnez **n'importe quel fichier** (ex. `manifest.json`).\n6. L'extension est installée.\n\n> Sur fourmizzz.fr, une boîte de dialogue vous demandera d'autoriser **Scripts utilisateurs** — cliquez sur **Autoriser**.\n\n---\n\n## Mise à jour du socle (toast *Mise à jour bloquée*)\n\nLe **socle** n'est mis à jour que rarement. Quand ses propres fichiers évoluent, le runtime devient incompatible avec le socle installé : il est alors **bloqué** et un **toast** s'affiche sur fourmizzz.fr avec un bouton **Télécharger** (télécharge le nouveau socle depuis les releases GitHub).\n\n> ℹ️ Le bouton **Télécharger** du toast lance automatiquement le téléchargement du zip depuis GitHub Releases. Celui **Voir les releases** renvoie vers la page des releases GitHub.\n\nSuivez cette procédure :\n\n1. **Télécharger le nouveau socle** → référez-vous à [l'Étape 1 — Télécharger le socle depuis GitHub](#étape-1--télécharger-le-socle-depuis-github).\n2. **Supprimer l'ancien socle** → référez-vous à [l'Étape 2 — Accéder à la page des extensions](#étape-2--accéder-à-la-page-des-extensions) pour l'accès aux extensions.\nSur cette  page, repérez Outiiil dans la liste, cliquez sur **Supprimer** (ou **Remove**) puis confirmez. Vous pouvez également simplement désactiver l'extension en cliquant sur le slider, l'important étant que deux versions de l'extension ne soient pas simultanément actives.\n3. **Charger le nouveau socle** → référez-vous à [l'Étape 3 — Installer le socle selon votre navigateur](#étape-3--installer-le-socle-selon-votre-navigateur).\n4. Voir [Étape 4 — Désactiver puis réactiver les scripts utilisateurs](#étape-4--désactiver-puis-réactiver-les-scripts-utilisateurs).\n5. Voir [Étape 5 — Vérifier la réussite](#étape-5--vérifier-la-réussite).\n\n### Étape 4 — Désactiver puis réactiver les scripts utilisateurs\n\n> ⚠️ **Cette étape est obligatoire après le chargement du nouveau socle.** Même si les scripts utilisateurs apparaissent activés, ils doivent être **désactivés puis réactivés** pour forcer le navigateur à réinitialiser l'état interne des scripts enregistrés par l'ancien socle.\n\n1. Sur la page des extensions (cf. [Étape 2](#étape-2--accéder-à-la-page-des-extensions)), cliquez sur **Détails** de l'extension Outiiil.\n2. Désactivez le bouton **Scripts utilisateurs**, puis **réactivez-le** immédiatement.\n   - **Chrome / Edge / Brave** : la permission *Scripts utilisateurs* figure dans la section Permissions de la fiche de l'extension.\n   - **Firefox** : la permission `userScripts` est demandée à la volée sur fourmizzz.fr ; il n'y a donc pas à effectuer de désactivation.\n\n### Étape 5 — Vérifier la réussite\n\n1. Ouvrez [www.fourmizzz.fr](https://www.fourmizzz.fr/).\n2. **Le toast de mise à jour bloquée ne doit plus s'afficher.**\n3. **La barre d'outils d'Outiiil (dock) doit apparaître.**\n\n---\n\n## 2. Pour les utilisateurs — Installation sur mobile\n\n### Android — Firefox pour Android\n\n**Version minimale** : Firefox 121 (MV3)\n\n> ⚠️ **Chrome sur Android ne supporte pas les extensions ni les `user scripts`.** Utilisez Firefox pour Android.\n\n1. Ouvrez Firefox et allez sur **`about:debugging`**.\n2. Activez **Mode développeur**.\n3. Cliquez sur **Charger un module permanent** (*Load Permanent Add-on*).\n4. Dans le dossier extrait, sélectionnez `manifest.json`.\n5. L'extension est installée.\n\n### iPhone / iPad (iOS) — Orion\n\n> ⚠️ **Safari, Chrome et Firefox sur iOS sont basés sur WebKit** et **ne prennent pas en charge les `user scripts` non empaquetés**. **Orion** est le seul navigateur mobile capable d'exécuter des extensions Chrome/Firefox sur iOS.\n\n**Version minimale** : iOS 16+ (Orion depuis l'App Store)\n\n1. Ouvrez **Orion** → **Réglages** (icône engrenage) → activez **Extensions** → **Activer l'installation d'extensions tierces**.\n2. Dans Orion, ouvrez le **gestionnaire d'extensions** et choisissez **Installer une extension** → **À partir d'un fichier**.\n3. Sélectionnez le dossier socle extrait.\n4. L'extension est installée.\n\n> ⚠️ **Limites** : le support des extensions sur iOS Orion est **en bêta**. Certaines APIs (`userScripts` avec `world: \"MAIN\"`) peuvent ne pas être pleinement supportées. Si Outiiil n'apparaît pas sur fourmizzz.fr, privilégiez un ordinateur de bureau ou un appareil **Android**.\n\n---\n\n## 3. Pour les développeurs — Installation depuis les sources\n\nCette procédure convient aux **contributeurs** et **développeurs**. Elle part du code source et génère le bundle localement en mode développement (`DEV_MODE = true`).\n\n> En mode développement, le runtime est injecté directement depuis les fichiers sources via `bundle_sources.json`, **sans** être téléchargé depuis GitHub Pages.\n\n### Prérequis\n\n- Git\n- Python 3 (pour générer le bundle)\n- Un navigateur compatible (voir tableau ci-dessous)\n\n### Procédure\n\n1. **Clonez le dépôt** :\n   ```bash\n   git clone https://github.com/ArpegorPSGH/Outiiil.git\n   cd Outiiil\n   ```\n2. **Chargez l'extension non empaquetée** dans votre navigateur en suivant les [Étapes 2 et 3](#étape-2--accéder-à-la-page-des-extensions-navigation-gui) de la section utilisateur, en sélectionnant la **racine du dépôt cloné** comme dossier.\n\n---\n\n## 4. Tableaux récapitulatifs\n\n### 4.1 — Utilisateurs\n\n| Système | Navigateur | Version min. | Mode d'installation |\n|---|---|---|---|\n| Windows | Chrome / Edge / Brave | 120 | `chrome://extensions` (ou `edge://`, `brave://`) → Load unpacked (socle zip) |\n| Windows | Firefox | 121 | `about:debugging` → Load Permanent Add-on (socle zip) |\n| macOS | Chrome / Edge / Brave | 120 | `chrome://extensions` (ou `edge://`, `brave://`) → Load unpacked (socle zip) |\n| macOS | Firefox | 121 | `about:debugging` → Load Permanent Add-on (socle zip) |\n| Linux | Chrome / Edge / Brave / Chromium | 120 | `chrome://extensions` → Load unpacked (socle zip) |\n| Linux | Firefox | 121 | `about:debugging` → Load Permanent Add-on (socle zip) |\n| Android | Firefox pour Android | 121 | `about:debugging` → Load Permanent Add-on (socle zip) |\n| iOS | Orion | iOS 16+ | Orion Settings → Enable 3rd-party extensions → Load from file (socle zip) |\n\n### 4.2 — Développeurs\n\n| Système | Navigateur | Version min. | Mode d'installation |\n|---|---|---|---|\n| Windows | Chrome / Edge / Brave | 120 | `chrome://extensions` (ou `edge://`, `brave://`) → Load unpacked (dossier cloné) |\n| Windows | Firefox | 121 | `about:debugging` → Load Permanent Add-on (dossier cloné) |\n| macOS | Chrome / Edge / Brave | 120 | `chrome://extensions` (ou `edge://`, `brave://`) → Load unpacked (dossier cloné) |\n| macOS | Firefox | 121 | `about:debugging` → Load Permanent Add-on (dossier cloné) |\n| Linux | Chrome / Chromium | 120 | `chrome://extensions` → Load unpacked (dossier cloné) |\n| Linux | Firefox | 121 | `about:debugging` → Load Permanent Add-on (dossier cloné) |\n\n---\n\n## 6. Dépannage fréquent\n\n### L'extension ne s'affiche pas sur fourmizzz.fr\n\n- Vérifiez que l'extension est bien **activée** dans la page des extensions (`chrome://extensions`, `edge://extensions`, `brave://extensions`, `about:addons`).\n- Sur **Chrome/Edge/Brave**, cliquez sur **Détails** de l'extension Outiiil et vérifiez que le bouton **Scripts utilisateurs** est activé dans la section Permissions.\n- Sur **Firefox**, une boîte de dialogue demande l'autorisation `userScripts` à la volée — cliquez sur **Autoriser**.\n- Redémarrez le navigateur après installation.\n\n### Impossible d'activer les scripts utilisateurs\n\n- Sur **Chrome/Edge/Brave**, si l'option est grisée, vous utilisez probablement un compte géré par une entreprise. Utilisez un profil local non géré.\n- Sur **Firefox**, la permission est demandée à la volée sur fourmizzz.fr. Si elle a été refusée, réinstallez l'extension et cliquez sur **Autoriser** lors de la boîte de dialogue.\n\n### Le toast *Mise à jour bloquée* persiste après la procédure\n\n- Vérifiez que vous avez bien **désactivé puis réactivé** le bouton **Scripts utilisateurs** (cf. [Étape 4](#étape-4--désactiver-puis-réactiver-les-scripts-utilisateurs)).\n- Actualisez la page (`F5`) ou redémarrez le navigateur.\n- Si le toast réapparaît, la version téléchargée ne correspond peut-être pas à une release contenant un socle compatible : téléchargez la **dernière** release depuis [GitHub Releases](https://github.com/ArpegorPSGH/Outiiil/releases).\n"};

@@ -1,7 +1,8 @@
 {
-  "version": "3.22.70.64509",
-  "sha256": "32449c7ddb298f15b65a783494ba453af557a2db6bc8d2db5309aefb79bd0aad",
-  "socle_hash": "19a6aab58061c4dc975b786c8cdcbfc25731483d76f48f162c2e570c295f6f49",
+  "version": "3.22.3.61726",
+  "sha256": "981b32b4aacf3606740f3e6d4f008e529b305ed2d81e8851e96a1c03730317a2",
+  "socle_hash": "e625ac4a184c8526d9bb39736d726c333b8b3dcb6c4c5e88feb781b91ec0a645",
+  "source_commit": "f11e740daa6e3a1f90ba1d955df60e2b5d25c11e",
   "runtime": "runtime.js",
   "css": "runtime.css",
   "images": [
@@ -28,5 +29,11 @@
     "images/icons/gear_48.png",
     "images/icons/gear_96.png"
   ],
-  "timestamp": 1792430174.0
+  "docs": [
+    {
+      "file": "documentation/installation.md",
+      "title": "Installation et mise \u00e0 jour du socle Outiiil"
+    }
+  ],
+  "timestamp": 1793601196.0
 }
