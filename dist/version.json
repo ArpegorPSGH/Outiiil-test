@@ -1,8 +1,8 @@
 {
-  "version": "3.22.3.51501",
-  "sha256": "1289e19f220d97a7a326712d54b44bc972a531c1797e35b62df10fbab48b33eb",
-  "socle_hash": "caa63f873bd3207b3dd512066d8688498766a3941e92614ac7c85353ea51d2fc",
-  "source_commit": "c92d51e000e2096dc8281c3e45e83798ef75d051",
+  "version": "3.22.3.3941",
+  "sha256": "f2b1acc1c4bffa9c2f782d698cdbee52c6bb344b8ca7c049fdaf7745f2335b37",
+  "socle_hash": "a8eccda85b6fc18ca862f3dedfb7a15c34d381b701c8ba2ddfb6c6a46c1d68a4",
+  "source_commit": "0f65297a1553c2f40ce6a9e87893daeed66b4fa6",
   "runtime": "runtime.js",
   "css": "runtime.css",
   "images": [
@@ -35,5 +35,5 @@
       "title": "Installation et mise \u00e0 jour du socle Outiiil"
     }
   ],
-  "timestamp": 1793602372.0
+  "timestamp": 1793605322.0
 }
