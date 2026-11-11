@@ -1,8 +1,8 @@
 {
-  "version": "3.22.3.50600",
-  "sha256": "6f93a9cca7e7e013e3eda0002d6b5c34f396b3ce6bdda18ed36b3077f21ed7dd",
-  "socle_hash": "3084359ebd42f6671991df9f480aae34dff014081f45e835d834881379dffc40",
-  "source_commit": "c5a8a53cd8328fb0fb2cf9e3d2d35e2a9f0c9ac8",
+  "version": "3.23.1.25418",
+  "sha256": "e3a43d27fcac7f104b636e0be71d272e80e8e799e738f7549919468d98b02ec6",
+  "socle_hash": "36cee4ff59844ea4dde3890a9e8ac0bc3aa36bd59a3a383a7c3eb5e52e7116f0",
+  "source_commit": "634a3fef98de53bc0b9cfa86597410c3ba10a17b",
   "runtime": "runtime.js",
   "css": "runtime.css",
   "images": [
@@ -32,8 +32,12 @@
   "docs": [
     {
       "file": "documentation/installation.md",
-      "title": "Installation et mise \u00e0 jour du socle Outiiil"
+      "title": "Installation et mise \u00e0 jour du socle"
+    },
+    {
+      "file": "documentation/utilisation.md",
+      "title": "Utilisation"
     }
   ],
-  "timestamp": 1793605552.0
+  "timestamp": 1794416208.0
 }
